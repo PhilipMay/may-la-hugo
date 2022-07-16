@@ -3,8 +3,8 @@ title: "Machine Learning Topics"
 linkTitle: "Machine Learning"
 cascade:
 - type: "docs"
-weight: 40
+weight: 20
 menu:
   main:
-    weight: 40
+    weight: 20
 ---

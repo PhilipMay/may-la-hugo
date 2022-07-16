@@ -5,11 +5,11 @@ type: docs
 
 This is Philip May's page. It is about the following topics:
 
-- [My Blog](/posts/)
-- [IT](/docs/it/)
-- [Python](/docs/python/)
-- [Machine Learning](/docs/machine-learning/)
-- [Linux](/docs/linux/)
+- [Blog](/blog/)
+- [IT](/it/)
+- [Python](/python/)
+- [Machine Learning](/machine-learning/)
+- [Linux](/linux/)
 
 # News about My Work
 - **March 07, 2022:** Based on our [GC4 text corpus](https://german-nlp-group.github.io/projects/gc4-corpus.html) we open sourced a new German T5 model: [t5-efficient-gc4-german-base-nl36](https://huggingface.co/GermanT5/t5-efficient-gc4-german-base-nl36)
