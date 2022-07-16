@@ -2,8 +2,6 @@
 title: Conda
 ---
 
-# Conda
-
 ## Manage Environments
 - create environment: `conda create --name <new_env_name>`
 - create environment with python 3.9: `conda create --name <new_env_name> python=3.9`

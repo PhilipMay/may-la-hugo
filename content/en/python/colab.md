@@ -2,7 +2,7 @@
 title: Colab
 ---
 
-# Colab
+## Links
 - Colab: <https://colab.research.google.com/>
 - Colab on GitHub: <https://github.com/googlecolab/colabtools>
 

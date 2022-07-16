@@ -2,7 +2,7 @@
 title: Pandas
 ---
 
-# Pandas
+## Links
 - indexing and selecting data: <https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html>
 - using iloc, loc, & ix: <https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/>
 - iterating dataframes

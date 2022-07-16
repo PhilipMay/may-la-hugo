@@ -2,11 +2,11 @@
 title: Typing
 ---
 
-# Typing
+## Links
 - https://docs.python.org/3/library/typing.html
 
 ## Types
-- `Any`: Special type indicating an unconstrained type.  
+- `Any`: Special type indicating an unconstrained type.
 - `Optional`: Optional type.
 - `Dict`
   - `Dict[str, int]`

@@ -2,7 +2,7 @@
 title: tqdm
 ---
 
-# tqdm
+## Links
 <https://github.com/tqdm/tqdm>
 
 ## Usage

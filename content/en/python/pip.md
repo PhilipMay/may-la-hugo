@@ -2,8 +2,6 @@
 title: PIP
 ---
 
-# PIP
-
 ## Install Packages
 - install GIT development code: `pip install git+<https_git_clone_link>`
 - install GIT development code from branch: `pip install git+<https_git_clone_link>@<branch_name>`

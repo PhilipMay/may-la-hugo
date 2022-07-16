@@ -2,8 +2,6 @@
 title: REST API with Python
 ---
 
-# REST API with Python
-
 ## Links
 - Flask: <https://flask.palletsprojects.com/>
   - Deploy to Production:

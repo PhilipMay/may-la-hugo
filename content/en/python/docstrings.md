@@ -2,7 +2,7 @@
 title: Docstrings
 ---
 
-# Docstrings
+## Description
 Python docstrings can be written in many different formats. An overview
 of different methods can be found in the following Stack Overflow entry:
 [What is the standard Python docstring

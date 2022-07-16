@@ -2,7 +2,7 @@
 title: Exceptions
 ---
 
-# Exceptions
+## Links
 - Built-in Exceptions: <https://docs.python.org/3/library/exceptions.html>
 
 ## Most Important Exceptions

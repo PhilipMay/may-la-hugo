@@ -2,8 +2,6 @@
 title: Iterate in Python
 ---
 
-# Iterate in Python
-
 ## Iterate keys of dict
 ```python
 d = {'x': 1, 'y': 2, 'z': 3}

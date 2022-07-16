@@ -2,7 +2,7 @@
 title: Jupyter & JupyterLab
 ---
 
-# Jupyter & JupyterLab
+## Links
 - `nb_conda_kernels`: <https://github.com/Anaconda-Platform/nb_conda_kernels>
 
 ## Install JupyterLab
@@ -24,7 +24,7 @@ For example:
 echo -e "import os\n\nos.environ[\"SOME_URL\"] = \"http://mlflow.company.tld:5000\"" > ~/.ipython/profile_default/startup/set_env.py
 ```
 ## Install Jupyter on Server for Remote Access
-- create blank config: `jupyter notebook --generate-config` 
+- create blank config: `jupyter notebook --generate-config`
 - Guide: https://jupyter-notebook.readthedocs.io/en/stable/public_server.html#running-a-public-notebook-server
 - Password hash generation: https://jupyter-notebook.readthedocs.io/en/stable/public_server.html#preparing-a-hashed-password
 - Certificate generation: https://jupyter-notebook.readthedocs.io/en/stable/public_server.html#using-ssl-for-encrypted-communication
