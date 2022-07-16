@@ -2,7 +2,7 @@
 title: NLP Datasets
 ---
 
-# NLP Datasets
+## Links
 * XGLUE: <https://microsoft.github.io/XGLUE/>
 * XNLI: <https://github.com/facebookresearch/XNLI>
   * XNLI 1.0
@@ -18,7 +18,7 @@ title: NLP Datasets
   * sentence1, sentence2, label
   * dev & test overlaps!
   * label: binary
-* STS benchmark 
+* STS benchmark
   * Original dataset: <https://ixa2.si.ehu.eus/stswiki/index.php/STSbenchmark>
   * STSb Multi MT: <https://github.com/PhilipMay/stsb-multi-mt>
   * Paper: <https://arxiv.org/abs/1708.00055>

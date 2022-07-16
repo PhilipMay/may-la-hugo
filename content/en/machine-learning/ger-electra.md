@@ -2,8 +2,6 @@
 title: German Electra Training
 ---
 
-# German Electra Training
-
 ## Steps for training
 
 ### Step 1 - generate Vocab

@@ -2,7 +2,7 @@
 title: Hugging Face - Transformers
 ---
 
-# Hugging Face - Transformers
+## Links
 - [Transformers Doc](https://huggingface.co/transformers/) - [Examples](https://huggingface.co/transformers/examples.html)
 - [Transformers GitHub](https://github.com/huggingface/transformers)
 - [Messageboard](https://discuss.huggingface.co/categories)

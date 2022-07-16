@@ -2,7 +2,7 @@
 title: Seldon
 ---
 
-# Seldon
+## Links
 - Seldon <https://www.seldon.io/>
 - GitHub <https://github.com/SeldonIO/seldon-core>
 - Doc <https://docs.seldon.io/projects/seldon-core/en/latest/>

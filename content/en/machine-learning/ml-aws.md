@@ -2,8 +2,6 @@
 title: Machine Learning at AWS
 ---
 
-# Machine Learning at AWS
-
 ## AWS Service Overview
 
 ### General Purpose Machine Learning Services

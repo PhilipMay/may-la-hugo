@@ -2,8 +2,6 @@
 title: LightGBM
 ---
 
-# LightGBM
-
 ## Advantages
 LightGBM loads the best model after early stopping (in contrast to
 XGBoost). See here:

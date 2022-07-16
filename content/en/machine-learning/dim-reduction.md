@@ -2,8 +2,6 @@
 title: Dimensionality Reduction
 ---
 
-# Dimensionality Reduction
-
 ## Linear Projection
 - principal component analysis (PCA)
 - singular value decomposition

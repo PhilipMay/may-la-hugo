@@ -2,8 +2,6 @@
 title: Paraphrase Mining
 ---
 
-# Paraphrase Mining
-
 ## Data
 - German Wikipedia
   - https://dumps.wikimedia.org/dewiki/

@@ -2,7 +2,6 @@
 title: Experiment Documentation
 ---
 
-# Experiment Documentation
 You should document what you did and why. The purpose is that you can
 repeat everything later (same data, same code, same modules) and loose
 no insights. The experience shows that it is tempting to do just a quick

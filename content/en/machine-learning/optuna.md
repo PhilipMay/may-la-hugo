@@ -2,10 +2,6 @@
 title: Optuna
 ---
 
-# Optuna
-old content:
-<https://github.com/PhilipMay/eniak/blob/master/ml/optuna.md>
-
 ## Transfer Trials to other DB
 ``` python
 local_study = optuna.load_study(study_name="foo", storage="SQLITE URL")
