@@ -14,4 +14,4 @@ Redirect 301 /linux.html /linux/
 Redirect 301 /linux/screen.html /linux/screen/
 Redirect 301 /k8s.html /it/
 Redirect 301 /k8s/kubectl.html /it/kubectl/
-Redirect 301 /k8s/(.*) /it/
+RedirectMatch 301 /k8s/(.*) /it/
