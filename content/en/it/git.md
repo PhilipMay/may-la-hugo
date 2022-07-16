@@ -2,7 +2,7 @@
 title: GIT
 ---
 
-# GIT
+## Links
 - Pro Git book: <https://git-scm.com/book/en/>
 - Ry’s Git Tutorial: <https://www.smashwords.com/books/view/498426>
 
@@ -14,6 +14,7 @@ title: GIT
   - one line format and show only `n` messages: `git log --pretty=oneline -n`
 - initial checkout: `git clone <remote_repo_url>`
 - clone a specific branch: `git clone -b <branch_name> <remote_repo_url>`
+- rename local master branch to main: `git branch -m master main`
 
 ## Branch handling
 - create and change Branch: `git checkout -b <new_branch_name>`
@@ -21,6 +22,11 @@ title: GIT
 - delete branch
   - delete a local branch: `git branch -d <local_branch>`
   - delete a remote branch `git push origin --delete <remote_branch>`
+
+## Avanced
+- add remote after `git init`
+  - add remote: `git remote add origin <git_url>`
+  - set upstream: `git branch --set-upstream-to=origin/main main`
 
 ## Empty Commit to trigger CI
 ``` bash
