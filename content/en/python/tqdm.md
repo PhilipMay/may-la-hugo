@@ -3,7 +3,7 @@ title: tqdm
 ---
 
 ## Links
-<https://github.com/tqdm/tqdm>
+- s<https://github.com/tqdm/tqdm>
 
 ## Usage
 Simple usage:
