@@ -3,8 +3,8 @@ title: Python Topics
 linkTitle: "Python"
 cascade:
 - type: "docs"
-weight: 20
+weight: 30
 menu:
   main:
-    weight: 20
+    weight: 30
 ---
