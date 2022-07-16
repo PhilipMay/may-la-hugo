@@ -4,3 +4,7 @@ Add styles or override variables from the theme here.
 
 */
 
+div.navbar-nav > input {
+    clear: both;
+    visibility: hidden;
+}
