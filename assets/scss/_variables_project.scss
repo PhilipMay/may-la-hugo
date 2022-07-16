@@ -1,10 +1,10 @@
 /*
-
-Add styles or override variables from the theme here.
-
+- hide search field in top bar
+- hide RSS button
 */
 
-div.navbar-nav > input {
+div.navbar-nav > input,
+a.td-rss-button {
     clear: both;
     visibility: hidden;
 }
