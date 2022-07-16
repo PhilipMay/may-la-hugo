@@ -2,7 +2,7 @@
 title: Minecraft
 ---
 
-# Minecraft
+## Links
 - Paper MC: <https://paper.readthedocs.io/>
 - LuckPerms: <https://luckperms.net/wiki/Usage>
 - EssentialsX: <https://essentialsx.net/wiki/Home.html>

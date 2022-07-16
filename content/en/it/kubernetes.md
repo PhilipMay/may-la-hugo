@@ -2,7 +2,7 @@
 title: Kubernetes
 ---
 
-# Kubernetes
+## Links
 - Kubernetes: <https://kubernetes.io/>
   - Deployments: <https://kubernetes.io/docs/concepts/workloads/controllers/deployment/>
 - kubectl

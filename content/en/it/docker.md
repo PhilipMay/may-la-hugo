@@ -2,7 +2,7 @@
 title: Docker
 ---
 
-# Docker
+## Commands
 - build: `docker build . -t <tag_name>`
 - connect to a container: `docker exec -it <container_name> bash`
 - delete

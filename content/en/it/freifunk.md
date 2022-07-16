@@ -2,7 +2,7 @@
 title: Freifunk
 ---
 
-# Freifunk
+## Links
 - Parker
   - <https://freifunk-bs.de/parker.html>
   - <https://w.freifunk-bs.de/map/>
@@ -103,7 +103,7 @@ title: Freifunk
 - <s>Map Link: <https://freifunk-bs.de/map/#!v:m;n:5c49793fe8f4></s>
 - <s>Map Link: <https://w.freifunk-bs.de/meshviewer/#!/5c49793fe8f4></s>
 - Map Link: <https://w.freifunk-bs.de/map/#!/de/map/5c49793fe8f4>
- 
+
 ## Nummer 9 - AVM FRITZ\!Box 4020
 - Hardware: AVM FRITZ\!Box 4020
 - Hardware Version: -

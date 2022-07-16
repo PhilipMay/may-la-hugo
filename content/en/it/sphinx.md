@@ -2,9 +2,7 @@
 title: Sphinx
 ---
 
-# Sphinx
-
-## Sphinx Documentation
+## Links
 - Sphinx: <https://www.sphinx-doc.org/>
 - Sphinx GitHub: <https://github.com/sphinx-doc/sphinx/>
 - reStructuredText (reST): <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>

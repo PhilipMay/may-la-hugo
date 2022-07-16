@@ -2,7 +2,7 @@
 title: Visual Studio Code
 ---
 
-# Visual Studio Code
+## Links
 - doc: <https://vscode.readthedocs.io/>
 
 ## Settings

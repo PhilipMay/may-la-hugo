@@ -2,8 +2,6 @@
 title: PostgreSQL
 ---
 
-# PostgreSQL
-
 ## Config Files
 - general config (Ubuntu): `/etc/postgresql/10/main/postgresql.conf`
 - general config (Archlinux): `/var/lib/postgres/data/postgresql.conf`

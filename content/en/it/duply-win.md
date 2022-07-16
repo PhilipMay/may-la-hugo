@@ -2,8 +2,6 @@
 title: Duply with Windows
 ---
 
-# Duply with Windows
-
 ## Installation
   - install cygwin: <https://cygwin.com/>
   - first just install base packages
