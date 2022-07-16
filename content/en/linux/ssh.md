@@ -2,11 +2,9 @@
 title: SSH
 ---
 
-# SSH
+## Config File
 
-## config File
-
-### Default config
+### Default Config
 The default config looks like this
 ```text
 Host <hostname> <ip>

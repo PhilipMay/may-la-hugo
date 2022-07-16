@@ -2,8 +2,6 @@
 title: File Compression
 ---
 
-# File Compression
-
 ## tgz
 - view files in archive: `tar -tf <filename>.tgz`
 

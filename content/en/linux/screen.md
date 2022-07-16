@@ -2,7 +2,7 @@
 title: Screen
 ---
 
-# Screen
+## Commands
 - open a session with name: `screen -S <session_name>`
 - list sessions: `screen -ls`
 - resume detached session: `screen -r <session_name>`

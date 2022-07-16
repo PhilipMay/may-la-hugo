@@ -2,8 +2,6 @@
 title: Disk and Partition Management
 ---
 
-# Disk and Partition Management
-
 ## Useful Commands
 - get disk UUID (for fstab): `blkid`
 - file check: `e2fsck -vf /dev/<disk>`
@@ -46,7 +44,7 @@ title: Disk and Partition Management
 - delete snapshot: `lvremove /dev/<volume_group_name>/<snapshot_name>`
 
 #### Recover from Image of Snapshot
-- create snapshot of disk to recover 
+- create snapshot of disk to recover
   - that snapshot must be a bit larget than the disk
   - if it is smaller or same size this might happen at merge time: `Unable to merge invalidated snapshot LV vg1/restore_test`
   - "[...] a small amount of the space you allocate to the snapshot is used to track the locations of the chunks of data, so you should allocate slightly more space than you actually need [...]" - see https://linux.die.net/man/8/lvcreate

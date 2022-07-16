@@ -2,8 +2,6 @@
 title: Ubuntu
 ---
 
-# Ubuntu
-
 ## Package Management
 - clean cache: `apt clean`
 - list installed packages: `apt list --installed`

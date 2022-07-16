@@ -2,8 +2,6 @@
 title: SSL
 ---
 
-# SSL
-
 ## Create self-signed SSL Certificate
 - also see:
   - <https://www.akadia.com/services/ssh_test_certificate.html>

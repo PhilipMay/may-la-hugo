@@ -2,8 +2,6 @@
 title: Linux Commands
 ---
 
-# Linux Commands
-
 ## User Management
 - create a user and set password
   - `useradd <username> -m -s /bin/bash`

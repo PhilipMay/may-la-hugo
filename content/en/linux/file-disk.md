@@ -2,8 +2,6 @@
 title: File & Disk Tools
 ---
 
-# File & Disk Tools
-
 ## Remove Things
 - remove all comments from file: `sed -e '/^#/d' <input_file> > <output_file>`
 - remove all blank lines from file: `awk '!/^$/' <input_file> > <output_file>`

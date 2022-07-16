@@ -2,8 +2,6 @@
 title: Archlinux Installation
 ---
 
-# Archlinux Installation
-
 ## Bios Settings (TODO)
 
 ## Time Settings (TODO)
