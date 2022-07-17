@@ -64,3 +64,11 @@ joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
 - add option to pass params to tokenizer: [#342](https://github.com/UKPLab/sentence-transformers/pull/342)
 - always store best_score: [#439](https://github.com/UKPLab/sentence-transformers/pull/439)
 - fix for OOM problems on GPU with large datasets: [#525](https://github.com/UKPLab/sentence-transformers/pull/525)
+
+## Datasets
+
+[NLU Evaluation Data – German and English + Similarity](https://github.com/t-systems-on-site-services-gmbh/NLU-Evaluation-Data-de-en)
+
+[The German colossal, cleaned Common Crawl corpus (GC4 corpus)](https://german-nlp-group.github.io/projects/gc4-corpus.html)<br/>
+joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
+([ambeRoad](https://amberoad.de/))
