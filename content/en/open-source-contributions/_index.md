@@ -16,7 +16,9 @@ Tools for [Optuna](https://optuna.readthedocs.io/),
 [MLflow](https://www.mlflow.org/docs/latest/index.html) and
 the integration of both
 
-[XLSR – Cross-Lingual Sentence Representations](https://github.com/German-NLP-Group/xlsr)
+[XLSR – Cross-Lingual Sentence Representations](https://github.com/German-NLP-Group/xlsr)<br/>
+Models and training code for cross-lingual sentence representations like
+[T-Systems-onsite/cross-en-de-roberta-sentence-transformer](https://huggingface.co/T-Systems-onsite/cross-en-de-roberta-sentence-transformer)
 
 [Transformer-Tools](https://github.com/telekom/transformer-tools)<br/>
 Tools for [Hugging Face / Transformers](https://github.com/huggingface/transformers)
