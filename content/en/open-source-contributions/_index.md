@@ -41,7 +41,7 @@ An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.or
 
 [T-Systems-onsite/cross-en-de-roberta-sentence-transformer](https://huggingface.co/T-Systems-onsite/cross-en-de-roberta-sentence-transformer)
 
-[german-nlp-group/electra-base-german-uncased](https://huggingface.co/german-nlp-group/electra-base-german-uncased)
+[german-nlp-group/electra-base-german-uncased](https://huggingface.co/german-nlp-group/electra-base-german-uncased)<br/>
 joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
 ([ambeRoad](https://amberoad.de/))
 
