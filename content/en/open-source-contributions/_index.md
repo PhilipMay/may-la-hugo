@@ -43,7 +43,10 @@ smart-prom-next is a [Prometheus](https://prometheus.io/docs/introduction/overvi
 [Lazy-Imports](https://github.com/telekom/lazy-imports)<br/>
 Python tool to support lazy imports
 
-[Style-Doc](https://github.com/telekom/style-doc)
+[Style-Doc](https://github.com/telekom/style-doc)<br/>
+This is Black for Python docstrings and reStructuredText (rst). It can be used to format
+docstrings ([Google docstring format](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings))
+in Python files or [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html).
 
 [PyCharm Community Edition IDE for Python with bundled JRE](https://aur.archlinux.org/packages/pycharm-community-jre)<br/>
 An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.org/title/Arch_User_Repository))
