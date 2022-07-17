@@ -3,6 +3,10 @@ title: "Migration from Sphinx to Hugo"
 date: 2022-07-17
 tags:
   - hugo
+  - docsy
+  - documentation
+  - ablog
+  - sphinx
 categories:
   - Blog
 ---
