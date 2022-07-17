@@ -73,8 +73,6 @@ joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
 
 ## Datasets
 
-[NLU Evaluation Data – German and English + Similarity](https://github.com/t-systems-on-site-services-gmbh/NLU-Evaluation-Data-de-en)
-
 [The German colossal, cleaned Common Crawl corpus (GC4 corpus)](https://german-nlp-group.github.io/projects/gc4-corpus.html)<br/>
 joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
 ([ambeRoad](https://amberoad.de/))
