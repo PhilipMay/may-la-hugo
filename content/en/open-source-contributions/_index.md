@@ -82,3 +82,8 @@ joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
 [Wikipedia 2 Corpus](https://github.com/GermanT5/wikipedia2corpus)<br/>
 Tools to extract and clean the Wikipedia texts to transform them into a text corpus for self-supervised NLP model training.
 Includes also a prepared corpus for English and German language.
+
+[NLU Evaluation Data - German and English + Similarity](https://github.com/t-systems-on-site-services-gmbh/NLU-Evaluation-Data-de-en)<br/>
+This repository contains two datasets:
+1. `NLU-Data-Home-Domain-Annotated-All-de-en.csv`: This dataset contains a labeled multi-domain (21 domains) German and English dataset with 25K user utterances for human-robot interaction.
+2. `NLU-Data-Home-Domain-similarity-de.csv`: This dataset contains German sentence pairs from `NLU-Data-Home-Domain-Annotated-All-de-en.csv` with semantic similarity scores.
