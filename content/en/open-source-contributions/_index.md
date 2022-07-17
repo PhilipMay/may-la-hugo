@@ -69,6 +69,8 @@ joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
 - always store best_score: [#439](https://github.com/UKPLab/sentence-transformers/pull/439)
 - fix for OOM problems on GPU with large datasets: [#525](https://github.com/UKPLab/sentence-transformers/pull/525)
 
+[OpenSearch Python Client - fixes and improvements](https://github.com/opensearch-project/opensearch-py/pulls?q=is%3Apr+author%3APhilipMay)
+
 ## Datasets
 
 [NLU Evaluation Data – German and English + Similarity](https://github.com/t-systems-on-site-services-gmbh/NLU-Evaluation-Data-de-en)
@@ -76,3 +78,7 @@ joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
 [The German colossal, cleaned Common Crawl corpus (GC4 corpus)](https://german-nlp-group.github.io/projects/gc4-corpus.html)<br/>
 joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
 ([ambeRoad](https://amberoad.de/))
+
+[Wikipedia 2 Corpus](https://github.com/GermanT5/wikipedia2corpus)<br/>
+Tools to extract and clean the Wikipedia texts to transform them into a text corpus for self-supervised NLP model training.
+Includes also a prepared corpus for English and German language.
