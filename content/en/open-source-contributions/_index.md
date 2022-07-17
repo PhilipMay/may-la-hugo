@@ -27,7 +27,14 @@ Tools for [Hugging Face / Transformers](https://github.com/huggingface/transform
 Tools for machine learning in cloud environments.
 At the moment it is only a tool to easily handle [Amazon S3](https://aws.amazon.com/s3/).
 
-[Census-Income with LightGBM and Optuna](https://github.com/telekom/census-income-lightgbm)
+[Census-Income with LightGBM and Optuna](https://github.com/telekom/census-income-lightgbm)<br/>
+This project uses the [census income data](https://archive-beta.ics.uci.edu/ml/datasets/census+income) and
+fits [LightGBM](https://lightgbm.readthedocs.io/) models on it.
+It is not intended to bring super good results, but rather as a demo to show the interaction between
+[LightGBM](https://lightgbm.readthedocs.io/), [Optuna](https://optuna.readthedocs.io/en/stable/index.html) and
+[HPOflow](https://github.com/telekom/HPOflow). The usage of HPOflow is optional and can be removed if wanted.
+We also calculare the feature importances
+with [SHAP (SHapley Additive exPlanations)](https://github.com/slundberg/shap).
 
 [S.M.A.R.T. Prometheus Metrics Exporter](https://github.com/PhilipMay/smart-prom-next)<br/>
 smart-prom-next is a [Prometheus](https://prometheus.io/docs/introduction/overview/) metric exporter for
