@@ -94,8 +94,11 @@ It is based on the multilingual T5 model [google/mt5-small](https://huggingface.
 ## Datasets
 
 [The German colossal, cleaned Common Crawl corpus (GC4 corpus)](https://german-nlp-group.github.io/projects/gc4-corpus.html)<br/>
-joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
-([ambeRoad](https://amberoad.de/))
+This is a German text corpus which is based on [Common Crawl](https://commoncrawl.org/).
+The text corpus has the size of 454 GB packed. Unpacked it is more than 1 TB.
+It has been cleaned up and preprocessed and can be used for various tasks in the NLP field.
+The dataset is joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
+([ambeRoad](https://amberoad.de/)).
 
 [Wikipedia 2 Corpus](https://github.com/GermanT5/wikipedia2corpus)<br/>
 Tools to extract and clean the Wikipedia texts to transform them into a text corpus for self-supervised NLP model training.
