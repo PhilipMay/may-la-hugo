@@ -43,7 +43,7 @@ joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
 
 [T-Systems-onsite/mt5-small-sum-de-en-v2](https://huggingface.co/T-Systems-onsite/mt5-small-sum-de-en-v2)
 
-## Contributions
+## Pull Requests
 
 [Hugging Face / Transformers](https://github.com/huggingface/transformers)
 - add classifier_dropout to classification heads: [#12794](https://github.com/huggingface/transformers/pull/12794)
