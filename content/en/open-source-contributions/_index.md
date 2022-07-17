@@ -23,7 +23,9 @@ Models and training code for cross-lingual sentence representations like
 [Transformer-Tools](https://github.com/telekom/transformer-tools)<br/>
 Tools for [Hugging Face / Transformers](https://github.com/huggingface/transformers)
 
-[ML-Cloud-Tools](https://github.com/telekom/ml-cloud-tools)
+[ML-Cloud-Tools](https://github.com/telekom/ml-cloud-tools)<br/>
+Tools for machine learning in cloud environments.
+At the moment it is only a tool to easily handle [Amazon S3](https://aws.amazon.com/s3/).
 
 [Census-Income with LightGBM and Optuna](https://github.com/telekom/census-income-lightgbm)
 
