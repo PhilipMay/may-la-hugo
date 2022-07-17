@@ -32,3 +32,5 @@ It is also used to document some other [important projects](https://www.docsy.de
 - <https://www.kubeflow.org/>
 - <https://graphviz.org/>
 - <https://www.selenium.dev/>
+
+Overall, I am very happy with the new solution. Perhaps the color scheme could be improved a bit. But that will all come later.
