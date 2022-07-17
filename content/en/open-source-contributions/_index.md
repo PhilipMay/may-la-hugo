@@ -21,12 +21,16 @@ the integration of both
 [Transformer-Tools](https://github.com/telekom/transformer-tools)<br/>
 Tools for [Hugging Face / Transformers](https://github.com/huggingface/transformers)
 
-[Lazy-Imports](https://github.com/telekom/lazy-imports)<br/>
-Python tool to support lazy imports
-
 [ML-Cloud-Tools](https://github.com/telekom/ml-cloud-tools)
 
 [Census-Income with LightGBM and Optuna](https://github.com/telekom/census-income-lightgbm)
+
+[S.M.A.R.T. Prometheus Metrics Exporter](https://github.com/PhilipMay/smart-prom-next)<br/>
+smart-prom-next is a [Prometheus](https://prometheus.io/docs/introduction/overview/) metric exporter for
+[S.M.A.R.T.](https://en.wikipedia.org/wiki/S.M.A.R.T.) values of hard disks.
+
+[Lazy-Imports](https://github.com/telekom/lazy-imports)<br/>
+Python tool to support lazy imports
 
 [Style-Doc](https://github.com/telekom/style-doc)
 
