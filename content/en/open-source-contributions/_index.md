@@ -53,13 +53,19 @@ An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.or
 
 ## Models
 
-[T-Systems-onsite/cross-en-de-roberta-sentence-transformer](https://huggingface.co/T-Systems-onsite/cross-en-de-roberta-sentence-transformer)
+[T-Systems-onsite/cross-en-de-roberta-sentence-transformer](https://huggingface.co/T-Systems-onsite/cross-en-de-roberta-sentence-transformer)<br/>
+This model is intended to [compute sentence (text) embeddings](https://www.sbert.net/examples/applications/computing-embeddings/README.html)
+for English and German text. These embeddings can then be compared with [cosine-similarity](https://en.wikipedia.org/wiki/Cosine_similarity)
+to find sentences with a similar semantic meaning.
 
 [german-nlp-group/electra-base-german-uncased](https://huggingface.co/german-nlp-group/electra-base-german-uncased)<br/>
+German [Electra](https://arxiv.org/abs/2003.10555) NLP model,
 joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
 ([ambeRoad](https://amberoad.de/))
 
-[T-Systems-onsite/mt5-small-sum-de-en-v2](https://huggingface.co/T-Systems-onsite/mt5-small-sum-de-en-v2)
+[T-Systems-onsite/mt5-small-sum-de-en-v2](https://huggingface.co/T-Systems-onsite/mt5-small-sum-de-en-v2)<br/>
+This is a bilingual summarization model for English and German.
+It is based on the multilingual T5 model [google/mt5-small](https://huggingface.co/google/mt5-small).
 
 ## Pull Requests
 
