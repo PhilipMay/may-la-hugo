@@ -51,6 +51,9 @@ in Python files or [reStructuredText](https://www.sphinx-doc.org/en/master/usage
 [PyCharm Community Edition IDE for Python with bundled JRE](https://aur.archlinux.org/packages/pycharm-community-jre)<br/>
 An [Arch Linux](https://archlinux.org/) package ([AUR](https://wiki.archlinux.org/title/Arch_User_Repository))
 
+[conda-forge/hyperopt-feedstock](https://github.com/conda-forge/hyperopt-feedstock)<br/>
+[conda-forge](https://conda-forge.org/) release of [Hyperopt](https://github.com/hyperopt/hyperopt)
+
 ## Models
 
 [T-Systems-onsite/cross-en-de-roberta-sentence-transformer](https://huggingface.co/T-Systems-onsite/cross-en-de-roberta-sentence-transformer)<br/>
