@@ -3,7 +3,7 @@ title: May.la
 type: docs
 ---
 
-This is Philip May's page. It is about the following topics:
+This is Philip May's page about the following topics:
 
 - [Blog](/blog/)
 - [IT](/it/)
