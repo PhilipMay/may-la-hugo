@@ -13,3 +13,8 @@ $primary: #343131;
 
 /* no Google fonts */
 $td-enable-google-fonts: false;
+
+/* reduce distances in overview page */
+.entry {
+    padding: 0 !important;
+}
