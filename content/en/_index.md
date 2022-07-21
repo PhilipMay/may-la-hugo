@@ -6,9 +6,9 @@ type: docs
 This is Philip May's page about the following topics:
 
 - [Blog](/blog/)
-- [IT](/it/)
-- [Python](/python/)
 - [Machine Learning](/machine-learning/)
+- [Python](/python/)
+- [IT](/it/)
 - [Linux](/linux/)
 - [Open Source Contributions](/open-source-contributions/)
 
