@@ -98,8 +98,8 @@ It is based on the multilingual T5 model [google/mt5-small](https://huggingface.
 
 **Other Fixes and Improvements**
 - [google-research/electra](https://github.com/google-research/electra): add toggle to turn off `strip_accents` [#88](https://github.com/google-research/electra/pull/88)
-- [UKPLab/sentence-transformers](https://github.com/UKPLab/sentence-transformers): [various fixes and improvements](https://github.com/UKPLab/sentence-transformers/pulls?q=is%3Apr+author%3APhilipMay)
-- [opensearch-project/opensearch-py](https://github.com/opensearch-project/opensearch-py): add Sphinx to generate Code Documentation [#112](https://github.com/opensearch-project/opensearch-py/pull/112) -
+- [opensearch-project/opensearch-py](https://github.com/opensearch-project/opensearch-py):
+add Sphinx to generate Code Documentation [#112](https://github.com/opensearch-project/opensearch-py/pull/112) -
 also see [API Reference](https://opensearch-project.github.io/opensearch-py/api-ref.html)
 - [deepset-ai/FARM](https://github.com/deepset-ai/FARM): [various fixes and improvements](https://github.com/deepset-ai/FARM/pulls?q=is%3Apr+author%3APhilipMay)
 - [hyperopt/hyperopt](https://github.com/hyperopt/hyperopt): add progressbar with tqdm [#455](https://github.com/hyperopt/hyperopt/pull/455)
