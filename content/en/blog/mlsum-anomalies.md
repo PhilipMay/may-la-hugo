@@ -16,8 +16,7 @@ my colleague [Michal Harakal](https://www.harakal.de/) and I noticed that in man
 sentence of the input text.
 Instead, it should generate an independent summary of the whole text.
 
-![](/img/posts/text-unsplash.jpg)
-<br/>Photo by [Sandy Millar](https://unsplash.com/photos/Kl4LNdg6on4)
+{{< figure src="/img/posts/text-unsplash.jpg" caption="Photo by [Sandy Millar](https://unsplash.com/photos/Kl4LNdg6on4)" >}}
 
 This extractive behavior should not happen with this model type. This is because it is an abstractive summarization model.
 **Abstractive summarization** methods attempt to create a summary by interpreting the input text using NLP techniques to generate a new,
