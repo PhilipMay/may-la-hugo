@@ -68,7 +68,7 @@ joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
 
 **[GermanT5/t5-efficient-gc4-german-base-nl36](https://huggingface.co/GermanT5/t5-efficient-gc4-german-base-nl36)**<br/>
 The first pure German T5 model.
-Joined work with [Stefan Schweter](https://github.com/stefan-it) ([Bayerische Staatsbibliothek](https://www.digitale-sammlungen.de/) / [Open Source @ DBMDZ](https://github.com/dbmdz)) and P. S.
+Joined work with [Stefan Schweter](https://github.com/stefan-it) ([Bayerische Staatsbibliothek](https://www.digitale-sammlungen.de/) / [Open Source @ DBMDZ](https://github.com/dbmdz)) and [Philipp Schmid ](https://www.philschmid.de/) ([Hugging Face](https://huggingface.co/)).
 
 **[T-Systems-onsite/mt5-small-sum-de-en-v2](https://huggingface.co/T-Systems-onsite/mt5-small-sum-de-en-v2)**<br/>
 This is a bilingual summarization model for English and German.
