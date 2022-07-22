@@ -3,7 +3,7 @@ title: File Compression
 ---
 
 ## tgz
-- compress: `tar cvfz <source_files_or_dir> <target_file>.tgz`
+- compress: `tar cvfz <target_file>.tgz <source_files_or_dir>`
 - fast compress (does not work): `tar -I pigz -cvf <source_files_or_dir> <target_file>.tgz`
 - view files in archive: `tar -tf <filename>.tgz`
 
