@@ -4,7 +4,7 @@ title: "Hugo"
 
 ## Links
 - Hugo docs: <https://gohugo.io/documentation/>
-  - [Use Hugo’s Built-in Shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes) 
+  - [Built-in Shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes) 
 - google/docsy theme
   - Docs: <https://www.docsy.dev/docs/>
   - GitHub: <https://github.com/google/docsy> 
