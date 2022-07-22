@@ -96,7 +96,10 @@ It is based on the multilingual T5 model [google/mt5-small](https://huggingface.
 - always store best_score: [#439](https://github.com/UKPLab/sentence-transformers/pull/439)
 - fix for OOM problems on GPU with large datasets: [#525](https://github.com/UKPLab/sentence-transformers/pull/525)
 
-**[OpenSearch Python Client - fixes and improvements](https://github.com/opensearch-project/opensearch-py/pulls?q=is%3Apr+author%3APhilipMay)**
+**Other Fixes and Improvements**
+- [google-research/electra](https://github.com/google-research/electra): add toggle to turn off `strip_accents` [#88](https://github.com/google-research/electra/pull/88)
+- [opensearch-project/opensearch-py](https://github.com/opensearch-project/opensearch-py): add Sphinx to generate Code Documentation [#112](https://github.com/opensearch-project/opensearch-py/pull/112) -
+also see [API Reference](https://opensearch-project.github.io/opensearch-py/api-ref.html)
 
 ## Datasets
 
