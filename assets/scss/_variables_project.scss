@@ -18,3 +18,8 @@ $td-enable-google-fonts: false;
 .entry {
     padding: 0 !important;
 }
+
+/* change quote bar color */
+.td-content > blockquote {
+    border-left: 6px solid #797676 !important;
+}
