@@ -46,4 +46,4 @@ jobs:
         local-dir: ./public/
         protocol: ftps
         PORT: 21
-        dangerous-clean-slate: true
+        # dangerous-clean-slate: true
