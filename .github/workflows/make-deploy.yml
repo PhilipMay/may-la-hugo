@@ -36,13 +36,14 @@ jobs:
     - name: Build with Hugo
       run: hugo --minify
 
+    # https://github.com/SamKirkland/FTP-Deploy-Action
     - name: Upload Site
-      uses: SamKirkland/FTP-Deploy-Action@2.0.0
-      env:
-        FTP_SERVER: www456.your-server.de
-        FTP_USERNAME: eniaka_2
-        FTP_PASSWORD: ${{ secrets.MAY_LA_FTP_PWD }}
-        LOCAL_DIR: public
-        METHOD: sftp
-        PORT: 22
-        ARGS: --delete
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: www456.your-server.de
+        username: eniaka_2
+        password: ${{ secrets.MAY_LA_FTP_PWD }}
+        local-dir: ./public/
+        protocol: ftps
+        PORT: 21
+        dangerous-clean-slate: true
