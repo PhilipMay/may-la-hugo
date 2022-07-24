@@ -29,22 +29,25 @@ conda remove --name <src_env> --all
 ## Installation
 
 ### Conda installation on Linux
-- download Conda (Python 3.x, Linux, 64-bit): <https://conda.io/miniconda.html>
-- make install file executable: `chmod +x Miniconda3-latest-Linux-x86_64.sh`
+- download Miniconda (not Anaconda): <https://conda.io/en/latest/miniconda.html#windows-installers>
+- download the 64 bit Miniconda3 for the highest Python version of your architecture
+- change install file to executable: `chmod +x Miniconda3-latest-Linux-x86_64.sh`
 - start installation: `./Miniconda3-latest-Linux-x86_64.sh`
 - use default settings
 - log out and back in to activate new settings
 
 ### Windows Install
-- download Miniconda (not Anaconda): <https://conda.io/en/latest/miniconda.html>
-- download Python 3.x with 64-bit and not 2.x or 32-bit version
+- download Miniconda (not Anaconda): <https://conda.io/en/latest/miniconda.html#windows-installers>
+- download Miniconda3 for the highest Python version
+- preferably the 64 bit version
 - proxy setup
   - add the following content to the `.condarc` file
   - located at `C:\Users\<User>`
-  - user and pass are optional
+  - `<user>` and `<pass>` are optional
   - some https settings use the http protocol and not https
+
 ```text
 proxy_servers:
-  http: http://user:pass@corp.com:8080
-  https: https://user:pass@corp.com:8080
+  http: http://[<user>:<pass>@]corp.com:8080
+  https: https://[<user>:<pass>@]corp.com:8080
 ```
