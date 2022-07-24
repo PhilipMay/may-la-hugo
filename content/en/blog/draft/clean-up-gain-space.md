@@ -6,4 +6,4 @@ tags:
 draft: true
 ---
 
-xxx
+- jupyter (Linux): `~/.local/share/Trash`
