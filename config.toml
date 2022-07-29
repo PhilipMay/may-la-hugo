@@ -68,7 +68,7 @@ anchor = "smart"
 [languages]
 [languages.en]
 title = "May.la"
-description = "The May.la site"
+description = "Philip May's page about machine learning, Python, Linux and IT"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
