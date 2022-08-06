@@ -40,6 +40,10 @@ with [SHAP (SHapley Additive exPlanations)](https://github.com/slundberg/shap).
 smart-prom-next is a [Prometheus](https://prometheus.io/docs/introduction/overview/) metric exporter for
 [S.M.A.R.T.](https://en.wikipedia.org/wiki/S.M.A.R.T.) values of hard disks.
 
+**[MLflow Image](https://github.com/PhilipMay/mlflow-image)**\
+The MLflow Docker image. MLflow does not provide an official Docker image.
+This project fills that gap.
+
 **[Lazy-Imports](https://github.com/telekom/lazy-imports)**<br/>
 Python tool to support lazy imports
 
