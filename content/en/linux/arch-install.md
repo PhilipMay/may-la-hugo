@@ -18,7 +18,8 @@ Also add
 - good mirror list
 {{% /alert %}}
 
-## Bios Settings (TODO)
+## Bios Settings
+to-do
 
 ## Time Settings (TODO)
 
