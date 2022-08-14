@@ -2,6 +2,22 @@
 title: Archlinux Installation
 ---
 
+{{% alert title="To-do" color="info" %}}
+Consolidate the old version:\
+<https://github.com/PhilipMay/may-la-hugo/blob/8863faed26795c63e7daa97fb97b21b651be2d57/content/en/linux/arch-install.md>
+
+Also add
+- GDM keyboard config
+- firefox
+- Gnome Keyboard config
+- Gnome Terminal config
+- Bootloader
+- DISCARD - SSD
+- Microcode
+- update my PyCharm package
+- good mirror list
+{{% /alert %}}
+
 ## Bios Settings (TODO)
 
 ## Time Settings (TODO)
@@ -12,6 +28,11 @@ loadkeys de-latin1-nodeadkeys
 ```
 
 ## Connect to W-Lan (TODO)
+- see https://wiki.archlinux.org/title/Iwd#Connect_to_a_network
+- `iwctl`
+- `station wlan0 connect may2`
+- `exit`
+- check with `ping archlinux.org`
 
 ## Show Disk Status
 ```bash
@@ -21,12 +42,7 @@ lsblk
 ## Delete Disk if you have SSD
 also see: <https://wiki.archlinux.de/title/Dm-crypt#Verschl.C3.BCsselung_anlegen>
 ```bash
-blkdiscard /dev/nvme0n1
-```
-
-## Check if Disk is clean now
-```bash
-lsblk
+blkdiscard -f /dev/nvme0n1
 ```
 
 ## Create partitions
@@ -34,6 +50,7 @@ see also: (TODO)
 ```bash
 gdisk /dev/nvme0n1
 ```
+
 - create 512MB boot / EFI - type: ef00
 - rest for root (LUKS) - type: 8309
 
@@ -48,17 +65,19 @@ cryptsetup luksFormat /dev/nvme0n1p2
 cryptsetup open /dev/nvme0n1p2 cryptroot
 ```
 
+use `lsblk` to check if `cryptroot` is created
+
 ## Create and mount Filesystems
 see also: <https://wiki.archlinux.org/index.php/EFI_system_partition#Format_the_partition>
 ```bash
 mkfs.ext4 /dev/mapper/cryptroot
 mount /dev/mapper/cryptroot /mnt
-mkfs.fat -F32 /dev/nvme0n1p1
+mkfs.fat -F 32 /dev/nvme0n1p1
 mkdir /mnt/boot
 mount /dev/nvme0n1p1 /mnt/boot
 ```
 
-## Create Swap File
+## Create Swap File (did not do this)
 see also: <https://wiki.archlinux.org/index.php/Swap#Swap_file_creation>
 - TODO: Link zu Ubuntu Seite
 ```bash
@@ -78,7 +97,7 @@ nano /etc/pacman.d/mirrorlist
 ## Install Packages
 ``` bash
 pacstrap /mnt base linux linux-firmware
-pacstrap /mnt nano gnome cryptsetup
+pacstrap /mnt nano gnome cryptsetup networkmanager
 pacstrap /mnt efibootmgr dosfstools gptfdisk
 ```
 
@@ -114,11 +133,17 @@ nano /etc/hosts
 
 127.0.0.1	localhost
 ::1		localhost
-127.0.1.1	myhostname.localdomain	myhostname
+127.0.1.1	myhostname
 
 nano /etc/mkinitcpio.conf
 
-- TODO: add content
+```
+HOOKS=(base udev autodetect modconf block keyboard keymap encrypt filesystems fsck)
+```
+
+- see https://wiki.archlinux.org/title/Dm-crypt/System_configuration#mkinitcpio
+- added after "block" -> "keyboard keymap encrypt"
+- no `consolefont`
 
 mkinitcpio -P
 
@@ -127,15 +152,42 @@ passwd
 # install systemd-boot
 bootctl install
 
-nano /boot/loader/entries/arch-uefi.conf
+systemd-boot does not accept tabs for indentation, use spaces instead.
+
+nano /boot/loader/entries/arch.conf
+
+```
+title     Arch Linux
+linux     /vmlinuz-linux
+initrd    /initramfs-linux.img
+options   cryptdevice=UUID=701fea32-236d-49fd-a0f9-cb9f07c94703:cryptroot root=/dev/mapper/cryptroot rw
+```
+
+use cat to add UUID to file:
+use the UUID of the base encryped partition ! NOT cryptroot
+
+blkid >> /boot/loader/entries/arch-uefi.conf
+
+- see https://wiki.archlinux.org/title/Systemd-boot#Adding_loaders
+- see https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#Configuring_the_boot_loader
+
 nano /boot/loader/entries/arch-uefi-fallback.conf
+
 nano /boot/loader/loader.conf
 
-# TODO: add content later
+```
+#timeout 3
+#console-mode keep
+default        arch.conf
+console-mode   max
+editor         no
+timeout        1
+```
 
 bootctl update
 
 exit
+cd /
 umount -R /mnt
 reboot
 
@@ -148,6 +200,26 @@ systemctl enable gdm.service
 systemctl enable NetworkManager
 
 reboot
+
+# check heyboard layout at login!
+
+# Gnome Settigs
+- Keyboard
+  - add German
+  - remove en
+- Mouse & Touchpad
+  - Natural scolling aus
+  - Tap to Click an
+- check "Region & Language"
+  - alle settings prüfen und synchronisieren
+  - both tabs -> Language: English, Formats: all Deutschland
+- Power
+  - Automatic Suspend - on battery power und Plugged in aus
+  - show percent
+
+
+- als root ausführen: `localectl set-x11-keymap de`
+
 
 # microcode
 # https://wiki.archlinux.org/index.php/Microcode
