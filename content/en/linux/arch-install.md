@@ -3,8 +3,10 @@ title: Archlinux Installation
 ---
 
 {{% alert title="To-do" color="info" %}}
-Consolidate the old version:\
-<https://github.com/PhilipMay/may-la-hugo/blob/8863faed26795c63e7daa97fb97b21b651be2d57/content/en/linux/arch-install.md>
+Consolidate the old versions:
+
+- https://github.com/PhilipMay/may-la-hugo/blob/8863faed26795c63e7daa97fb97b21b651be2d57/content/en/linux/arch-install.md
+- https://wiki.archlinux.de/title/Benutzer:PMay/T430s_Setup
 
 Also add
 - GDM keyboard config
@@ -19,33 +21,26 @@ Also add
 {{% /alert %}}
 
 ## Bios Settings
-to-do
-
-## Time Settings
-to-do
+- set the BIOS clock to GMT time zone
+- turn all virtualization optiona on
 
 ## Keyboard Settings
-```bash
-loadkeys de-latin1-nodeadkeys
-```
+- https://wiki.archlinux.org/title/installation_guide#Set_the_console_keyboard_layout
+- German keyboard: `loadkeys de-latin1-nodeadkeys`
 
 ## Connect to W-Lan (TODO)
 - see https://wiki.archlinux.org/title/Iwd#Connect_to_a_network
 - `iwctl`
-- `station wlan0 connect may2`
+- `station <wlan_device> connect <ssid>`
 - `exit`
 - check with `ping archlinux.org`
 
-## Show Disk Status
-```bash
-lsblk
-```
-
-## Delete Disk if you have SSD
-also see: <https://wiki.archlinux.de/title/Dm-crypt#Verschl.C3.BCsselung_anlegen>
-```bash
-blkdiscard -f /dev/nvme0n1
-```
+## Disks
+- show disk status `lsblk`
+- delete disk if you have a SSD
+  - also see: https://wiki.archlinux.de/title/Dm-crypt#Verschl.C3.BCsselung_anlegen
+  - `blkdiscard -f /dev/nvme0n1`
+  - also might want to use `--secure` or `-z/--zeroout` option - see https://wiki.archlinux.org/title/Solid_state_drive/Memory_cell_clearing#Common_method_with_blkdiscard
 
 ## Create partitions
 see also: (TODO)
