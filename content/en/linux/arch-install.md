@@ -41,20 +41,10 @@ Also add
   - also see: https://wiki.archlinux.de/title/Dm-crypt#Verschl.C3.BCsselung_anlegen
   - `blkdiscard -f /dev/nvme0n1`
   - also might want to use `--secure` or `-z/--zeroout` option - see https://wiki.archlinux.org/title/Solid_state_drive/Memory_cell_clearing#Common_method_with_blkdiscard
-
-## Create partitions
-see also: (TODO)
-```bash
-gdisk /dev/nvme0n1
-```
-
-- create 512MB boot / EFI - type: ef00
-- rest for root (LUKS) - type: 8309
-
-## Show Disk Status
-```bash
-lsblk
-```
+- create partitions: `gdisk /dev/nvme0n1`
+  - create 512MB boot / EFI - type: ef00
+  - rest for root (LUKS) - type: 8309
+- show disk status again: `lsblk`
 
 ## Create LUKS
 ```bash
