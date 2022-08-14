@@ -21,7 +21,8 @@ Also add
 ## Bios Settings
 to-do
 
-## Time Settings (TODO)
+## Time Settings
+to-do
 
 ## Keyboard Settings
 ```bash
