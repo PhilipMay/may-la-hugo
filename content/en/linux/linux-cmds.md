@@ -32,6 +32,7 @@ scp -i ~/.ssh/<key_file>.pem -o "ProxyCommand=nc -X connect -x <proxy_ip>:<proxy
 ```
 
 ## Special
+- output to terminal and file: `command | tee <filename>`
 
 ### Rotate Terminal
 - to the right: `echo 1 | sudo tee
