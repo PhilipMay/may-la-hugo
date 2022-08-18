@@ -12,3 +12,6 @@ title: File Compression
 
 ## bz2
 - unpack: `bzip2 -dk <filename>.bz2`
+
+## gzip
+- test `.gz` files: `gzip -v -t <file>.gz`
