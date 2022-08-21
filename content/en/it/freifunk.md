@@ -15,7 +15,7 @@ title: Freifunk
   - Status des aktuellen Freifunk Routers (nur wenn
     verbunden):
     - <http://node.ffbs>
-    - <http://[2001:bf7:382::1]/>
+    - [http://[2001:bf7:382::1]/](http://[2001:bf7:382::1]/)
 
 ## Nummer 1 - TP-Link TL-WR841N
 - Hardware: TP-Link TL-WR841N
