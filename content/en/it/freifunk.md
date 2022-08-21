@@ -6,8 +6,6 @@ title: Freifunk
 - [Freifunk](https://freifunk.net/)
 - [Freifunk Forum](https://forum.freifunk.net/)
 - [Pico Peering Agreement](http://picopeer.net/)
-- [Router mit TFTP
-  flashen](https://ffmuc.net/wiki/p/Router_mit_TFTP_flashen)
 - Braunschweig
   - [Freifunk Braunschweig](https://freifunk-bs.de/)
   - [Freifunk Firmware
