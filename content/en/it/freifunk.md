@@ -3,9 +3,17 @@ title: Freifunk
 ---
 
 ## Links
-- Parker
-  - <https://freifunk-bs.de/parker.html>
-  - <https://w.freifunk-bs.de/map/>
+- [Freifunk](https://freifunk.net/)
+- [Freifunk Forum](https://forum.freifunk.net/)
+- [Pico Peering Agreement](http://picopeer.net/)
+- Braunschweig
+  - [Freifunk Braunschweig](https://freifunk-bs.de/)
+  - [Freifunk Firmware
+    Braunschweig](http://firmware.freifunk-bs.de/)
+  - [Freifunk Braunschweig Karte](https://freifunk-bs.de/map/)
+  - [GitLab Stratum 0](https://gitli.stratum0.org/explore/projects)
+  - [Status des aktuellen Freifunk Routers (nur wenn
+    verbunden)](http://node.ffbs)
 
 ## Nummer 1 - TP-Link TL-WR841N
 - Hardware: TP-Link TL-WR841N
@@ -157,23 +165,8 @@ title: Freifunk
 - Map Link: <https://freifunk-bs.de/map/#!v:m;n:5c49793bc5ed>
 - für Sven B. zurückgelegt
 
-## Links
-- [Freifunk](https://freifunk.net/)
-- [Freifunk Forum](https://forum.freifunk.net/)
-- [Pico Peering Agreement](http://picopeer.net/)
-- Braunschweig
-  - [Freifunk Braunschweig](https://freifunk-bs.de/)
-  - [Freifunk Firmware
-    Braunschweig](http://firmware.freifunk-bs.de/)
-  - [Freifunk Braunschweig Karte](https://freifunk-bs.de/map/)
-  - [GitLab Stratum 0](https://gitli.stratum0.org/explore/projects)
-  - [Status des aktuellen Freifunk Routers (nur wenn
-    verbunden)](http://node.ffbs)
-
 ## Router
-Warning
-
-Devices with ≤4MB flash and/or ≤32MB ram will work but they will be very
+Warning: Devices with ≤4MB flash and/or ≤32MB ram will work but they will be very
 limited (usually they can't install or run additional packages) because
 they have low RAM and flash space. Consider this when choosing a device
 to buy, or when deciding to flash OpenWrt on your device because it is
