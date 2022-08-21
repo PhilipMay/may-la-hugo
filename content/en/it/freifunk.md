@@ -6,6 +6,8 @@ title: Freifunk
 - [Freifunk](https://freifunk.net/)
 - [Freifunk Forum](https://forum.freifunk.net/)
 - [Pico Peering Agreement](http://picopeer.net/)
+- [Router mit TFTP
+  flashen](https://ffmuc.net/wiki/p/Router_mit_TFTP_flashen)
 - Braunschweig
   - [Freifunk Braunschweig](https://freifunk-bs.de/)
   - [Freifunk Firmware
@@ -252,11 +254,7 @@ listed as supported. Also see:
 - OpenWRT Link: <https://openwrt.org/toh/tp-link/tl-wdr3600>
 - sehr alt - wird nicht mehr hergestellt
 
-## Know-how
-- [Router mit TFTP
-  flashen](https://ffmuc.net/wiki/p/Router_mit_TFTP_flashen)
-
-### Outdoor Box
+## Outdoor Box
 - <https://wiki.freifunk.net/Outdoorf%C3%A4higen_Router_basteln>
 - <https://wiki.freifunk.net/Outdoor_Box>
 - <https://wiki.freifunk.net/DIY_Halterung>
@@ -265,28 +263,6 @@ listed as supported. Also see:
 - <http://wiki.leipzig.freifunk.net/Gehaeuse>
 - <https://forum.freifunk.net/t/umbau-tl-wr841nd-fuer-outdoor-einsatz/2077>
 - <https://www.youtube.com/watch?v=v1fI3JdK8gg>
-
-#### Hardware
-- Abzweigdose / Anschlussdose
-  - 165 x 125 x 75 IP 65
-  - 186 x 146 x 75
-  - 190 x 145 x 70 - EUR 8,65 + EUR 4,90 Versandkosten
-  - <https://www.bauhaus.info/schalterdosen-deckel/spelsberg-feuchtraum-abzweigdose-abox/p/22679820>
-- Power Over Ethernet Passive POE Injector
-  - [eBay 1](https://www.ebay.de/itm/Power-Over-Ethernet-Passive-POE-Injector-Adapter-Splitter-Cable-kit-weis/152891691504)
-  - [Amazon 1](https://www.amazon.de/RJ45-Koppler-CableCreation-Keystone-Modulverbinder-kupplung/dp/B01FHC1EXW/ref=sr_1_30?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=cat+buchse&qid=1555337780&s=gateway&sr=8-30)
-- Kabelverschraubung M20
-  - Kabelverschraubung
-  - Dichtring
-  - Gegenmutter
-  - [Amazon 1](https://www.amazon.de/Faconet%C2%AE-Kabelverschraubung-Netzwerkkabel-sichern-Zugentlastung/dp/B075B85H4C/ref=sr_1_6?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=Kabelverschraubung%2BM20&qid=1555332519&s=gateway&sr=8-6&th=1)
-- Kabelverschraubung M12
-  - Kabelverschraubung
-  - Dichtring
-  - Gegenmutter
-- Stufenbohrer
-- Silikon
-- Heißkleber
 
 ## TP-Link TL-WR841N & TL-WR841ND Abmessungen
 - Platine:
