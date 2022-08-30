@@ -14,10 +14,12 @@ title: Graph Neural Network
 - Collections
 - [Petar Veličković](https://www.youtube.com/channel/UC9bkKi8Us7yevvP1KIBQHog/videos)
   - [Everything is Connected: Deep Learning on Graphs](https://www.youtube.com/watch?v=5h6MbQ_65-o)
-- [Antonio Longa - PyG tutorials](https://www.youtube.com/user/94longa2112/videos)
+  - [Theoretical Foundations of Graph Neural Networks](https://www.youtube.com/watch?v=uF53xsT7mjc)
+- [Graph Neural Networks](https://www.youtube.com/playlist?list=PLSgGvve8UweGx4_6hhrF3n4wpHf_RV76_)
+- [Hussain Kara Fallah](https://www.youtube.com/channel/UCyRGTzxD6Pa4cJOfHmvklQA/videos)
 - [Machine Learning TV - not only but also GNN topics](https://www.youtube.com/c/MachineLearningTV/videos)
 - [Hannes Stärk](https://www.youtube.com/channel/UC4uWMmEGc5EZVn5pAox-iww/videos)
-- [Hussain Kara Fallah](https://www.youtube.com/channel/UCyRGTzxD6Pa4cJOfHmvklQA/videos)
+- [Antonio Longa - PyG tutorials](https://www.youtube.com/user/94longa2112/videos)
 
 ### Tools & Libraries
 - [PyG (PyTorch Geometric)](https://pytorch-geometric.readthedocs.io/en/latest/) - [GitHub](https://github.com/pyg-team/pytorch_geometric)
