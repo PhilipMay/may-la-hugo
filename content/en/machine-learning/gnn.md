@@ -9,7 +9,7 @@ title: Graph Neural Network
 
 ### Video
 - Collections
-  - [Antonio Longa - PyG tutorials]  
+  - [Antonio Longa - PyG tutorials](https://www.youtube.com/user/94longa2112/videos)
   - [Hannes Stärk](https://www.youtube.com/channel/UC4uWMmEGc5EZVn5pAox-iww/videos)
 
 ### Tools & Libraries
