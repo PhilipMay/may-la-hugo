@@ -31,3 +31,5 @@ title: Graph Neural Network
 ### Datasets
 - [Open Graph Benchmark (OGB)](https://ogb.stanford.edu/)
 - [PyG (PyTorch Geometric) Datasets](https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html?highlight=datasets)
+- [TUDatasets](https://chrsmrrs.github.io/datasets/)
+- [Benchmarking Graph Neural Networks](https://graphdeeplearning.github.io/post/benchmarking-gnns/) - [GitHub](https://github.com/graphdeeplearning/benchmarking-gnns)
