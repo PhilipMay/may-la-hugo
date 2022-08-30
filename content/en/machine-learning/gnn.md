@@ -7,6 +7,7 @@ title: Graph Neural Network
 ### Know-how
 
 ### Video
+- [Hannes Stärk videos](https://www.youtube.com/channel/UC4uWMmEGc5EZVn5pAox-iww/videos)
 
 ### Tools & Libraries
 - [PyG (PyTorch Geometric)](https://pytorch-geometric.readthedocs.io/en/latest/) - [GitHub](https://github.com/pyg-team/pytorch_geometric)
@@ -27,3 +28,5 @@ title: Graph Neural Network
   - technology: JAX
 
 ### Datasets
+- [Open Graph Benchmark (OGB)](https://ogb.stanford.edu/)
+- [PyG (PyTorch Geometric) Datasets](https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html?highlight=datasets)
