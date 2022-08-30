@@ -8,7 +8,9 @@ title: Graph Neural Network
 - [Learning on Graphs and Geometry Reading Group](https://hannes-stark.com/logag-reading-group)
 
 ### Video
-- [Hannes Stärk videos](https://www.youtube.com/channel/UC4uWMmEGc5EZVn5pAox-iww/videos)
+- Collections
+  - [Antonio Longa - PyG tutorials]  
+  - [Hannes Stärk](https://www.youtube.com/channel/UC4uWMmEGc5EZVn5pAox-iww/videos)
 
 ### Tools & Libraries
 - [PyG (PyTorch Geometric)](https://pytorch-geometric.readthedocs.io/en/latest/) - [GitHub](https://github.com/pyg-team/pytorch_geometric)
