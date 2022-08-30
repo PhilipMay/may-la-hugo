@@ -17,5 +17,7 @@ title: Graph Neural Network
   - technology: Tensorflow
   - [arXiv paper](https://arxiv.org/abs/1806.01261)
 - [Jraph](https://jraph.readthedocs.io/en/latest/) - [GitHub](https://github.com/deepmind/jraph)
+  - currentness: well maintained
+  - technology: JAX
 
 ### Datasets
