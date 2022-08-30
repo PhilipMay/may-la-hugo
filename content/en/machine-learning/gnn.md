@@ -8,7 +8,7 @@ title: Graph Neural Network
 - [Learning on Graphs and Geometry Reading Group](https://hannes-stark.com/logag-reading-group)
 
 ### Video
-- ???
+- Jure Leskovec (Stanford university)
   - [Graph Representation Learning (Stanford university)](https://www.youtube.com/watch?v=YrhBZUtgG4E)
   - [Graph Node Embedding Algorithms (Stanford - Fall 2019)](https://www.youtube.com/watch?v=7JELX6DiUxQ)
 - Collections
