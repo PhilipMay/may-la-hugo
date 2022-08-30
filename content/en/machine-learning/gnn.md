@@ -10,6 +10,8 @@ title: Graph Neural Network
 
 ### Tools & Libraries
 - [PyG (PyTorch Geometric)](https://pytorch-geometric.readthedocs.io/en/latest/) - [GitHub](https://github.com/pyg-team/pytorch_geometric)
+  - currentness: well maintained
+  - technology: PyTorch
 - [DGL (Deep Graph Library)](https://www.dgl.ai/) - [GitHub](https://github.com/dmlc/dgl/)
   - currentness: well maintained
   - technology: PyTorch, TensorFlow or Apache MXNet
