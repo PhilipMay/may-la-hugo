@@ -5,6 +5,7 @@ title: Graph Neural Network
 ## Links
 
 ### Know-how
+- [Learning on Graphs and Geometry Reading Group](https://hannes-stark.com/logag-reading-group)
 
 ### Video
 - [Hannes Stärk videos](https://www.youtube.com/channel/UC4uWMmEGc5EZVn5pAox-iww/videos)
