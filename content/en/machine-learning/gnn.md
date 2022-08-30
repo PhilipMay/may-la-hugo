@@ -15,6 +15,7 @@ title: Graph Neural Network
   - [Antonio Longa - PyG tutorials](https://www.youtube.com/user/94longa2112/videos)
   - [Machine Learning TV - not only but also GNN topics](https://www.youtube.com/c/MachineLearningTV/videos)
   - [Hannes Stärk](https://www.youtube.com/channel/UC4uWMmEGc5EZVn5pAox-iww/videos)
+  - [Hussain Kara Fallah](https://www.youtube.com/channel/UCyRGTzxD6Pa4cJOfHmvklQA/videos)
 
 ### Tools & Libraries
 - [PyG (PyTorch Geometric)](https://pytorch-geometric.readthedocs.io/en/latest/) - [GitHub](https://github.com/pyg-team/pytorch_geometric)
