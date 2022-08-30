@@ -10,6 +10,7 @@ title: Graph Neural Network
 ### Video
 - ???
   - [Graph Representation Learning (Stanford university)](https://www.youtube.com/watch?v=YrhBZUtgG4E)
+  - [Graph Node Embedding Algorithms (Stanford - Fall 2019)](https://www.youtube.com/watch?v=7JELX6DiUxQ)
 - Collections
   - [Antonio Longa - PyG tutorials](https://www.youtube.com/user/94longa2112/videos)
   - [Machine Learning TV - not only but also GNN topics](https://www.youtube.com/c/MachineLearningTV/videos)
