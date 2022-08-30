@@ -8,8 +8,11 @@ title: Graph Neural Network
 - [Learning on Graphs and Geometry Reading Group](https://hannes-stark.com/logag-reading-group)
 
 ### Video
+- ???
+  - [Graph Representation Learning (Stanford university)](https://www.youtube.com/watch?v=YrhBZUtgG4E)
 - Collections
   - [Antonio Longa - PyG tutorials](https://www.youtube.com/user/94longa2112/videos)
+  - [Machine Learning TV - not only but also GNN topics](https://www.youtube.com/c/MachineLearningTV/videos)
   - [Hannes Stärk](https://www.youtube.com/channel/UC4uWMmEGc5EZVn5pAox-iww/videos)
 
 ### Tools & Libraries
