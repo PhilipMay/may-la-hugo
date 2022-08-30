@@ -12,6 +12,8 @@ title: Graph Neural Network
 - [PyG (PyTorch Geometric)](https://pytorch-geometric.readthedocs.io/en/latest/) - [GitHub](https://github.com/pyg-team/pytorch_geometric)
 - [DGL (Deep Graph Library)](https://www.dgl.ai/) - [GitHub](https://github.com/dmlc/dgl/)
 - [Spektral](https://graphneural.network/) - [GitHub](https://github.com/danielegrattarola/spektral/)
+  - currentness: maintained
+  - technology: Keras & TensorFlow 2
 - Graph Nets - [GitHub](https://github.com/deepmind/graph_nets) 
   - currentness: outdated, last commit Dec. 2020
   - technology: Tensorflow
