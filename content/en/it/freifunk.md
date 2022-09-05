@@ -33,18 +33,6 @@ title: Freifunk
 - Gekauft: gebraucht - April 2019
 - Modifikation: keine
 
-## Nummer 3 - TP-Link TL-WR841ND
-- Hardware: TP-Link TL-WR841ND (ND und nicht nur N)
-- Hardware Version: 9.2
-- Gekauft: gebraucht - April 2019
-- Modifikation: keine
-
-## Nummer 4 - TP-Link TL-WR841N
-- Hardware: TP-Link TL-WR841N
-- Hardware Version: 9.0
-- Gekauft: gebraucht - April 2019
-- für Sven B. zurückgelegt
-
 ## Nummer 5 - TP-Link TL-WR841N
 - Hardware: TP-Link TL-WR841N
 - Hardware Version: 9.0
@@ -95,17 +83,6 @@ title: Freifunk
   - WPS und WLAN Schalter abgekniffen - siehe Foto unten
 
 {{< figure src="/img/docs/passiv-poe-umbau-fritz-box-4020.jpg" caption="Photo of the hardware modification" >}}
-
-## Nummer 10 - TP-Link Archer C7
-- Hardware: TP-Link Archer C7
-- Hardware Version: 2.0
-- Gekauft: gebraucht - April 2019
-- Modifikation: -
-- Besonderheiten:
-  - Netzteil hatte nach Kauf Wackelkontakt in der Steckverbindung
-    zum Router
-  - wurde behoben
-  - Kontakte in der Buchse wurden nach innen gebogen
 
 ## Nummer 11 - AVM FRITZ!Box 4020
 - Hardware: AVM FRITZ!Box 4020
