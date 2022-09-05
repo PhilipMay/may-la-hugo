@@ -65,8 +65,8 @@ title: Freifunk
 - Node Name: may-parker-07
 - Modifikation: keine
 
-## Nummer 8 - AVM FRITZ\!Box 4020
-- Hardware: AVM FRITZ\!Box 4020
+## Nummer 8 - AVM FRITZ!Box 4020
+- Hardware: AVM FRITZ!Box 4020
 - Hardware Version: -
 - Hardware Besonderheit: 3 Antennen parellel, keine orthogonal - siehe
   auch hier:
@@ -82,22 +82,17 @@ title: Freifunk
   - unten wurden "Gitterstäbe" entfernt
 - Map Link: <https://w.freifunk-bs.de/map/#!/de/map/5c49793fe8f4>
 
-## Nummer 9 - AVM FRITZ\!Box 4020
-- Hardware: AVM FRITZ\!Box 4020
+## Nummer 9 - AVM FRITZ!Box 4020
+- Hardware: AVM FRITZ!Box 4020
 - Hardware Version: -
 - Hardware Besonderheit: 2 Antennen parellel, eine orthogonal - siehe
   auch hier:
   <https://openwrt.org/toh/avm/fritz.box.4020?s%5C#different_antenna_layouts>
 - Gekauft: gebraucht - April 2019
-- Software: Freifunk Braunschweig installiert und eingerichtet
-- Node Name: may-09
-- Konfiguration: -
-- Geo: -
 - Modifikation:
   - Passiv POE Umbau - siehe Foto unten
   - USB Buchse ausgelötet - siehe Foto unten
   - WPS und WLAN Schalter abgekniffen - siehe Foto unten
-- Map Link: <https://freifunk-bs.de/map/#!v:m;n:c80e140fbced>
 
 {{< figure src="/img/docs/passiv-poe-umbau-fritz-box-4020.jpg" caption="Photo of the hardware modification" >}}
 
@@ -105,35 +100,23 @@ title: Freifunk
 - Hardware: TP-Link Archer C7
 - Hardware Version: 2.0
 - Gekauft: gebraucht - April 2019
-- Software: Freifunk Braunschweig installiert aber noch nicht
-  eingerichtet
-- Node Name: -
-- Konfiguration: -
-- Geo: -
 - Modifikation: -
 - Besonderheiten:
   - Netzteil hatte nach Kauf Wackelkontakt in der Steckverbindung
     zum Router
   - wurde behoben
   - Kontakte in der Buchse wurden nach innen gebogen
-- Map Link: -
-- für Sven B. zurückgelegt
 
-## Nummer 11 - AVM FRITZ\!Box 4020
-- Hardware: AVM FRITZ\!Box 4020
+## Nummer 11 - AVM FRITZ!Box 4020
+- Hardware: AVM FRITZ!Box 4020
 - Hardware Version: -
 - Hardware Besonderheit: 3 Antennen parellel, keine orthogonal - siehe
   auch hier:
   <https://openwrt.org/toh/avm/fritz.box.4020?s%5C#different_antenna_layouts>
 - Gekauft: gebraucht - Mai 2019
-- Software: Freifunk Braunschweig installiert und eingerichtet
 - Node Name: may-11
-- Konfiguration: -
-- Geo: -
 - Modifikation: einige Rippen oben am Gehäuse waren gebrochen und
   wurden entfernt
-- Map Link: <https://freifunk-bs.de/map/#!v:m;n:5c49793bc5ed>
-- für Sven B. zurückgelegt
 
 ## Router
 Warning: Devices with ≤4MB flash and/or ≤32MB ram will work but they will be very
