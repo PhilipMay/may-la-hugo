@@ -118,6 +118,12 @@ title: Freifunk
 - Modifikation: einige Rippen oben am Gehäuse waren gebrochen und
   wurden entfernt
 
+## Nummer 13 -  Ubiquiti UniFi AC MESH - UAP-AC-M
+- Hardware: Ubiquiti UniFi AC MESH - UAP-AC-M
+- Gekauft: gebraucht (wie neu) - September 2022
+- Node Name: may-13
+- Map link: <https://freifunk-bs.de/map/#!/de/map/68d79a0b15ce>
+
 ## Router
 Warning: Devices with ≤4MB flash and/or ≤32MB ram will work but they will be very
 limited (usually they can't install or run additional packages) because
