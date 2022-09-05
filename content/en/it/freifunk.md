@@ -22,12 +22,9 @@ title: Freifunk
 - Hardware Version: 9.2
 - Gekauft: gebraucht - April 2019
 - Software: Freifunk Braunschweig installiert und eingerichtet
-- <s>Node Name: may-01</s>
-- Node Name: may-parker-01
+- Node Name: may-01
 - Geo: 52° 13,495' N 010° 30,985' E
 - Modifikation: in outdoor Gehäuse
-- <s>Map Link: <https://freifunk-bs.de/map/#!v:m;n:14cc20702702></s>
-- <s>Map Link: <https://w.freifunk-bs.de/meshviewer/#!/14cc20702702></s>
 - Map Link: <https://w.freifunk-bs.de/map/#!/de/map/14cc20702702>
 
 ## Nummer 2 - TP-Link TL-WR841N
