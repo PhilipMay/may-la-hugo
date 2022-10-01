@@ -122,6 +122,11 @@ It has been cleaned up and preprocessed and can be used for various tasks in the
 The dataset is joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
 ([ambeRoad](https://amberoad.de/)).
 
+**STSb Multi MT**\
+Machine translated multilingual STS benchmark dataset.\
+This dataset is available on [GitHub](https://github.com/PhilipMay/stsb-multi-mt) and
+as a [Hugging Face Dataset](https://huggingface.co/datasets/stsb_multi_mt).
+
 **[Wikipedia 2 Corpus](https://github.com/GermanT5/wikipedia2corpus)**<br/>
 Tools to extract and clean the Wikipedia texts to transform them into a text corpus for self-supervised NLP model training.
 Includes also a prepared corpus for English and German language.
