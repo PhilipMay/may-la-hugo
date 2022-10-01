@@ -123,7 +123,9 @@ The dataset is joined work with [Philipp Reißel](https://twitter.com/phil_ipp_)
 ([ambeRoad](https://amberoad.de/)).
 
 **STSb Multi MT**\
-Machine translated multilingual STS benchmark dataset.\
+Machine translated multilingual translations and
+the English original of the [STSbenchmark dataset](https://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark).
+Translation has been done with [deepl.com](https://www.deepl.com/).\
 This dataset is available on [GitHub](https://github.com/PhilipMay/stsb-multi-mt) and
 as a [Hugging Face Dataset](https://huggingface.co/datasets/stsb_multi_mt).
 
