@@ -17,7 +17,7 @@ data = {"col1": [1, 2], "col2": [3, 4]}
 df = pd.DataFrame(data=data)
 ```
 
-## Load and Save
+## Load and Save CSV
 - save to CSV: `df.to_csv("path_or_buffer")`
 - save to CSV (without row names / index): `df.to_csv("path_or_buffer", index=False)`
 - load from CSV:
@@ -32,6 +32,9 @@ df = pd.read_csv(
     quoting=csv.QUOTE_NONE,
 )
 ```
+
+## Load and Save CSV Parquet
+- save to parquet: `df.to_parquet('<file_name>.parquet.gz', compression='gzip')`
 
 ## Display Data
 - count values in column (without `NaN` values): `df["col_name"].value_counts()`
