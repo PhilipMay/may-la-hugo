@@ -34,7 +34,7 @@ df = pd.read_csv(
 ```
 
 ## Load and Save CSV Parquet
-- save to parquet: `df.to_parquet('<file_name>.parquet.gz', compression='gzip')`
+- save to parquet: `df.to_parquet("<file_name>.parquet.gz", compression="gzip")`
 
 ## Display Data
 - count values in column (without `NaN` values): `df["col_name"].value_counts()`
