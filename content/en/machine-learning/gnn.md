@@ -9,8 +9,6 @@ title: Graph Neural Network
 
 ### Video
 - [Stanford CS224W: Machine Learning with Graphs (Playlist)](https://www.youtube.com/watch?v=JAB_plj2rbA&list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn) Jure Leskovec (Stanford university)
-  - [Graph Representation Learning (Stanford university)](https://www.youtube.com/watch?v=YrhBZUtgG4E)
-  - [Graph Node Embedding Algorithms (Stanford - Fall 2019)](https://www.youtube.com/watch?v=7JELX6DiUxQ)
 - Collections
   - [Petar Veličković](https://www.youtube.com/channel/UC9bkKi8Us7yevvP1KIBQHog/videos)
     - [Everything is Connected: Deep Learning on Graphs](https://www.youtube.com/watch?v=5h6MbQ_65-o)
