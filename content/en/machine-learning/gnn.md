@@ -9,15 +9,14 @@ title: Graph Neural Network
 
 ### Video
 - [Stanford CS224W: Machine Learning with Graphs (Playlist)](https://www.youtube.com/watch?v=JAB_plj2rbA&list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn) Jure Leskovec (Stanford university)
-- Collections
-  - [Petar Veličković](https://www.youtube.com/channel/UC9bkKi8Us7yevvP1KIBQHog/videos)
-    - [Everything is Connected: Deep Learning on Graphs](https://www.youtube.com/watch?v=5h6MbQ_65-o)
-    - [Theoretical Foundations of Graph Neural Networks](https://www.youtube.com/watch?v=uF53xsT7mjc)
-  - [Graph Neural Networks](https://www.youtube.com/playlist?list=PLSgGvve8UweGx4_6hhrF3n4wpHf_RV76_)
-  - [Hussain Kara Fallah](https://www.youtube.com/channel/UCyRGTzxD6Pa4cJOfHmvklQA/videos)
-  - [Machine Learning TV - not only but also GNN topics](https://www.youtube.com/c/MachineLearningTV/videos)
-  - [Hannes Stärk](https://www.youtube.com/channel/UC4uWMmEGc5EZVn5pAox-iww/videos)
-  - [Antonio Longa - PyG tutorials](https://www.youtube.com/user/94longa2112/videos)
+- [Petar Veličković](https://www.youtube.com/channel/UC9bkKi8Us7yevvP1KIBQHog/videos)
+- [Everything is Connected: Deep Learning on Graphs](https://www.youtube.com/watch?v=5h6MbQ_65-o)
+  - [Theoretical Foundations of Graph Neural Networks](https://www.youtube.com/watch?v=uF53xsT7mjc)
+- [Graph Neural Networks](https://www.youtube.com/playlist?list=PLSgGvve8UweGx4_6hhrF3n4wpHf_RV76_)
+- [Hussain Kara Fallah](https://www.youtube.com/channel/UCyRGTzxD6Pa4cJOfHmvklQA/videos)
+- [Machine Learning TV - not only but also GNN topics](https://www.youtube.com/c/MachineLearningTV/videos)
+- [Hannes Stärk](https://www.youtube.com/channel/UC4uWMmEGc5EZVn5pAox-iww/videos)
+- [Antonio Longa - PyG tutorials](https://www.youtube.com/user/94longa2112/videos)
 
 ### Tools & Libraries
 - [PyG (PyTorch Geometric)](https://pytorch-geometric.readthedocs.io/en/latest/) - [GitHub](https://github.com/pyg-team/pytorch_geometric)
