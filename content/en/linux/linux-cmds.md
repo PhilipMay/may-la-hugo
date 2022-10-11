@@ -42,3 +42,10 @@ scp -i ~/.ssh/<key_file>.pem -o "ProxyCommand=nc -X connect -x <proxy_ip>:<proxy
 
 ## Administration
 - reboot with timer (5 minutes) and message: `shutdown -r +5 "<message>"`
+
+## Bash Aliases
+```bash
+alias ls='ls --color=auto -h'
+alias la='ls -lA'
+alias ll='ls -l'
+```
