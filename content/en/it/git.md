@@ -162,6 +162,7 @@ changed.
 - set username
    - local (for single repository): `git config user.name "<username>"`
    - global: `git config --global user.name "<username>"`
+- change editor to nano (global): `git config --global core.editor "nano"`
 - global ignore Settings
   - create `~/.gitignore_global` file with ignore settings
   - execute `git config --global core.excludesfile ~/.gitignore_global`
