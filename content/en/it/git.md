@@ -159,7 +159,6 @@ changed.
 ## Configuration
 - always rebase on pull (is is best practice): ` git config --global pull.rebase true `
 - remember username and password: `git config --global credential.helper store`
-- set username:
 - set username
    - local (for single repository): `git config user.name "<username>"`
    - global: `git config --global user.name "<username>"`
