@@ -160,8 +160,11 @@ changed.
 - always rebase on pull (is is best practice): ` git config --global pull.rebase true `
 - remember username and password: `git config --global credential.helper store`
 - set username
-   - local (for single repository): `git config user.name "<username>"`
-   - global: `git config --global user.name "<username>"`
+  - local (for single repository): `git config user.name "<username>"`
+  - global: `git config --global user.name "<username>"`
+- set mail
+  - local: `git config user.email "<mail>"`
+  - global: `git config --global user.email "<mail>"`
 - change editor to nano (global): `git config --global core.editor "nano"`
 - global ignore Settings
   - create `~/.gitignore_global` file with ignore settings
