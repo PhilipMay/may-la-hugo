@@ -29,7 +29,7 @@ Furthermore, this approach also suffers from a
 ## Pros and cons: relative to a certain point in time in the past
 This is easy to calculate because the "point in time in the past" (January 1st 1900 for example) is a fixed point in time. This contrasts with the encoding which is relative to "today". But the problem with this encoding is the following:
 
-There are circumstances that in reality are not related to the date itself, but much more to the age. The remaining service life of a technical device is much more related to its age than to its production date. Whether a customer is interested in an airplane trip or a train ticket also depends on age and not so much on the date of birth. So, if you represent the date of birth relative to a time in the past, then the model has a built-in [concept drift](https://en.wikipedia.org/wiki/Concept_drift).
+There are circumstances that in reality are not related to the date itself, but much more to the age. The remaining service life of a technical device is much more directly related to its age than to its production date. Whether a customer is interested in an airplane trip or a train ticket also depends on age and not so much on the date of birth. So, if you represent the date of birth relative to a time in the past, then the resulting model would have a built-in [concept drift](https://en.wikipedia.org/wiki/Concept_drift).
 
 For example, two predictions are made for the same person with his or her date of birth. One prediction on January 2022 and one on January 2023. Then the person is obviously one year older at the second prediction in January 2023. But this would not be visible in the encoding of the date of birth (if you encode it relative to a point in time in the past). The model would therefore experience a concept drift and would have to be re-trained.
 
@@ -44,4 +44,4 @@ The hard disk was manufactured on January 1, 2022. It has already failed on Janu
 
 ## Conclusion
 
-If your prediction is correlated with the age of something, choose the encoding we call "relative to today". This removes the concept drift but is a bit tricky to calculate. If you believe in astrology or there is an actual relation to the month (outside temperature) or the day of the week then this information can be coded additionally.
+If your prediction is correlated with the age of something, choose the encoding we call "relative to today". This removes the concept drift but is a bit tricky to calculate. If you believe in astrology or there is an actual relation to the month (outside temperature) or the day of the week then this information can be encoded as an additional feature.
