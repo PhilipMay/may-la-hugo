@@ -11,7 +11,7 @@ categories:
 
 Some data, such as strings, must be encoded to be used in machine learning models. Here we explore the different options for encoding date fields.
 
-{{< figure src="/img/posts/calendar.jpg" caption="Photo by [Behnam Norouzi](https://unsplash.com/@behy_studio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/calendar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)" >}}
+{{< figure src="/img/posts/calendar.jpg" caption="Photo by [Behnam Norouzi](https://unsplash.com/@behy_studio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/)" >}}
 
 The general options to encode the time dimension like the birth date of a customer or the production time of a product are:
 
