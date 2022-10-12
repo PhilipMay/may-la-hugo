@@ -69,6 +69,8 @@ Examples for display settings:
 ```python
 pd.set_option("display.max_rows", None)
 pd.set_option("display.max_columns", None)
+
+# display long sentences in multiple rows (Jupyter)
 pd.set_option("display.max_colwidth", None)
 ```
 
