@@ -25,5 +25,5 @@ see https://www.geeksforgeeks.org/class-method-vs-static-method-python/
 ### staticmethod
 see https://www.geeksforgeeks.org/class-method-vs-static-method-python/
 
-### constructor vs. initializer vs. allocator (__init__)
+### constructor vs. initializer vs. allocator (`__init__`)
 see https://stackoverflow.com/a/6578504
