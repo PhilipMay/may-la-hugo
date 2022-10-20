@@ -15,6 +15,10 @@ title: Docker
 ## Dockerfile
 - set variables: `ARG variable=value`
 - use variables example: `WORKDIR /home/$variable`
+- optimization tools and how-tos:
+  - https://www.fromlatest.io/
+  - https://www.augmentedmind.de/2022/02/06/optimize-docker-image-size/
+  - https://www.ecloudcontrol.com/best-practices-to-reduce-docker-images-size/
 
 ## docker-compose
 - https://docs.docker.com/compose/
