@@ -51,12 +51,15 @@ title: Graph Neural Network
 ## Papers mentioned
 - mentioned at [2:43:40](https://youtu.be/GYW286H3SKw?t=9820)
   - [Grale: Designing Networks for Graph Learning (2020)](https://arxiv.org/pdf/2007.12002.pdf)
-- mentioned at [2:46:36](https://youtu.be/GYW286H3SKw?t=9996)
-  - [Wide & Deep Learning for Recommender Systems (2016)](https://arxiv.org/pdf/1606.07792.pdf)
-  - [DCN V2: Improved Deep & Cross Network [...] (2020)](https://arxiv.org/pdf/2008.13535.pdf)
-  - [Deep & Cross Network for Ad Click Predictions (2017)](https://arxiv.org/pdf/1708.05123.pdf)
 - mentioned at [2:57:47](https://youtu.be/GYW286H3SKw?t=10667)
-  - [Semi-Supervised Classification with Graph Convolutional Networks (2016)](https://arxiv.org/pdf/1609.02907.pdf)
-  - [DeepWalk: Online Learning of Social Representations (2014)](https://arxiv.org/pdf/1403.6652.pdf)
-  - [node2vec: Scalable Feature Learning for Networks (2016)](https://arxiv.org/pdf/1607.00653.pdf)
-  - [Inductive Representation Learning on Large Graphs (2017)](https://arxiv.org/pdf/1706.02216.pdf)
+  - Ranking systems for RecSys
+    - [Wide & Deep Learning for Recommender Systems (2016)](https://arxiv.org/pdf/1606.07792.pdf)
+    - [DCN V2: Improved Deep & Cross Network [...] (2020)](https://arxiv.org/pdf/2008.13535.pdf)
+    - [Semi-Supervised Classification with Graph Convolutional Networks (2016)](https://arxiv.org/pdf/1609.02907.pdf)
+    - [Deep & Cross Network for Ad Click Predictions (2017)](https://arxiv.org/pdf/1708.05123.pdf)
+  - GNN architectures
+    - [DeepWalk: Online Learning of Social Representations (2014)](https://arxiv.org/pdf/1403.6652.pdf)
+    - [node2vec: Scalable Feature Learning for Networks (2016)](https://arxiv.org/pdf/1607.00653.pdf)
+    - [Inductive Representation Learning on Large Graphs (2017)](https://arxiv.org/pdf/1706.02216.pdf)
+  - Graph-based appoaches for RecSys
+    - xyz
