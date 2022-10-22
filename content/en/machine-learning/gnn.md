@@ -29,7 +29,7 @@ title: Graph Neural Network
 - [Spektral](https://graphneural.network/) - [GitHub](https://github.com/danielegrattarola/spektral/)
   - currentness: maintained
   - technology: Keras & TensorFlow 2
-- Graph Nets - [GitHub](https://github.com/deepmind/graph_nets) 
+- Graph Nets - [GitHub](https://github.com/deepmind/graph_nets)
   - currentness: outdated, last commit Dec. 2020
   - technology: Tensorflow
   - [arXiv paper](https://arxiv.org/abs/1806.01261)
@@ -43,3 +43,13 @@ title: Graph Neural Network
   [Dataset Cheatsheet](https://pytorch-geometric.readthedocs.io/en/latest/notes/data_cheatsheet.html#)
 - [TUDatasets](https://chrsmrrs.github.io/datasets/)
 - [Benchmarking Graph Neural Networks](https://graphdeeplearning.github.io/post/benchmarking-gnns/) - [GitHub](https://github.com/graphdeeplearning/benchmarking-gnns)
+
+## Recommender Systems at Spotify
+- Speaker: Andreas Damianou
+- Direct Link: https://www.youtube.com/watch?v=GYW286H3SKw&t=9537s
+
+## Papers mentioned
+- [Grale: Designing Networks for Graph Learning (2020)](https://arxiv.org/pdf/2007.12002.pdf)
+- [Wide & Deep Learning for Recommender Systems (2016)](https://arxiv.org/pdf/1606.07792.pdf)
+- [DCN V2: Improved Deep & Cross Network [...] (2020)](https://arxiv.org/pdf/2008.13535.pdf)
+- [Deep & Cross Network for Ad Click Predictions (2017)](https://arxiv.org/pdf/1708.05123.pdf)
