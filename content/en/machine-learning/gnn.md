@@ -66,3 +66,6 @@ title: Graph Neural Network
     - [Graph Learning based Recommender Systems: A Review (2021)](https://arxiv.org/pdf/2105.06339.pdf)
     - [Graph Convolutional Neural Networks for Web-Scale Recommender Systems (2018)](https://arxiv.org/pdf/1806.01973.pdf)
     - [Graph Convolutional Matrix Completion (2017)](https://arxiv.org/pdf/1706.02263.pdf)
+    - [Graph Neural Networks for Social Recommendation (2019)](https://arxiv.org/pdf/1902.07243.pdf)
+    - [Trajectory Based Podcast Recommendation (2020)](https://arxiv.org/pdf/2009.03859.pdf)
+    - [RecWalk: Nearly Uncoupled Random Walks for Top-N Recommendation (2019)](https://dl.acm.org/doi/pdf/10.1145/3289600.3291016)
