@@ -49,7 +49,11 @@ title: Graph Neural Network
 - Direct Link: https://www.youtube.com/watch?v=GYW286H3SKw&t=9537s
 
 ## Papers mentioned
-- [Grale: Designing Networks for Graph Learning (2020)](https://arxiv.org/pdf/2007.12002.pdf)
-- [Wide & Deep Learning for Recommender Systems (2016)](https://arxiv.org/pdf/1606.07792.pdf)
-- [DCN V2: Improved Deep & Cross Network [...] (2020)](https://arxiv.org/pdf/2008.13535.pdf)
-- [Deep & Cross Network for Ad Click Predictions (2017)](https://arxiv.org/pdf/1708.05123.pdf)
+- mentioned at [2:43:40](https://youtu.be/GYW286H3SKw?t=9820)
+  - [Grale: Designing Networks for Graph Learning (2020)](https://arxiv.org/pdf/2007.12002.pdf)
+- mentioned at [2:46:36](https://youtu.be/GYW286H3SKw?t=9996)
+  - [Wide & Deep Learning for Recommender Systems (2016)](https://arxiv.org/pdf/1606.07792.pdf)
+  - [DCN V2: Improved Deep & Cross Network [...] (2020)](https://arxiv.org/pdf/2008.13535.pdf)
+  - [Deep & Cross Network for Ad Click Predictions (2017)](https://arxiv.org/pdf/1708.05123.pdf)
+- mentioned at [2:57:47](https://youtu.be/GYW286H3SKw?t=10667)
+  - xxx
