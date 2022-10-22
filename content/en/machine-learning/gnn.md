@@ -62,4 +62,7 @@ title: Graph Neural Network
     - [node2vec: Scalable Feature Learning for Networks (2016)](https://arxiv.org/pdf/1607.00653.pdf)
     - [Inductive Representation Learning on Large Graphs (2017)](https://arxiv.org/pdf/1706.02216.pdf)
   - Graph-based appoaches for RecSys
-    - xyz
+    - [A Survey on Knowledge Graph-Based Recommender Systems (2020)](https://arxiv.org/pdf/2003.00911.pdf)
+    - [Graph Learning based Recommender Systems: A Review (2021)](https://arxiv.org/pdf/2105.06339.pdf)
+    - [Graph Convolutional Neural Networks for Web-Scale Recommender Systems (2018)](https://arxiv.org/pdf/1806.01973.pdf)
+    - [Graph Convolutional Matrix Completion (2017)](https://arxiv.org/pdf/1706.02263.pdf)
