@@ -56,4 +56,7 @@ title: Graph Neural Network
   - [DCN V2: Improved Deep & Cross Network [...] (2020)](https://arxiv.org/pdf/2008.13535.pdf)
   - [Deep & Cross Network for Ad Click Predictions (2017)](https://arxiv.org/pdf/1708.05123.pdf)
 - mentioned at [2:57:47](https://youtu.be/GYW286H3SKw?t=10667)
-  - xxx
+  - [Semi-Supervised Classification with Graph Convolutional Networks (2016)](https://arxiv.org/pdf/1609.02907.pdf)
+  - [DeepWalk: Online Learning of Social Representations (2014)](https://arxiv.org/pdf/1403.6652.pdf)
+  - [node2vec: Scalable Feature Learning for Networks (2016)](https://arxiv.org/pdf/1607.00653.pdf)
+  - [Inductive Representation Learning on Large Graphs (2017)](https://arxiv.org/pdf/1706.02216.pdf)
