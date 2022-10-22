@@ -48,7 +48,7 @@ title: Graph Neural Network
 - Speaker: Andreas Damianou
 - Direct Link: [Stanford Graph Learning Workshop 2022](https://www.youtube.com/watch?v=GYW286H3SKw&t=9537s)
 
-## Papers mentioned
+### Papers mentioned
 - mentioned at [2:43:40](https://youtu.be/GYW286H3SKw?t=9820)
   - [Grale: Designing Networks for Graph Learning (2020)](https://arxiv.org/pdf/2007.12002.pdf)
 - mentioned at [2:57:47](https://youtu.be/GYW286H3SKw?t=10667)
