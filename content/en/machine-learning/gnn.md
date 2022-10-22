@@ -46,7 +46,7 @@ title: Graph Neural Network
 
 ## Recommender Systems at Spotify
 - Speaker: Andreas Damianou
-- Direct Link: https://www.youtube.com/watch?v=GYW286H3SKw&t=9537s
+- Direct Link: [Stanford Graph Learning Workshop 2022](https://www.youtube.com/watch?v=GYW286H3SKw&t=9537s)
 
 ## Papers mentioned
 - mentioned at [2:43:40](https://youtu.be/GYW286H3SKw?t=9820)
