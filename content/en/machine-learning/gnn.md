@@ -69,3 +69,6 @@ title: Graph Neural Network
     - [Graph Neural Networks for Social Recommendation (2019)](https://arxiv.org/pdf/1902.07243.pdf)
     - [Trajectory Based Podcast Recommendation (2020)](https://arxiv.org/pdf/2009.03859.pdf)
     - [RecWalk: Nearly Uncoupled Random Walks for Top-N Recommendation (2019)](https://dl.acm.org/doi/pdf/10.1145/3289600.3291016)
+    - [LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation (2020)](https://arxiv.org/pdf/2002.02126.pdf)
+    - [KDD 2022 tutorial by El-Kishky et al.](https://ahelk.github.io/talks/kdd22.html) -
+    [slides](https://ahelk.github.io/talks/kdd22/kdd_talk.pdf)
