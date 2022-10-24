@@ -44,4 +44,4 @@ The hard disk was manufactured on January 1, 2022. It has already failed on Janu
 
 ## Conclusion
 
-If your prediction is correlated with the age of something, choose the encoding we call "relative to today". This removes the concept drift but is a bit tricky to calculate. If you believe in astrology or there is an actual relation to the month (outside temperature) or the day of the week then this information can be encoded as an additional feature.
+If your prediction is correlated with the age of something, choose the encoding we call "relative to today". This removes the concept drift but is a bit tricky to calculate. If  there is an actual relation to the month (outside temperature) or the day of the week then this information can be encoded as an additional feature.
