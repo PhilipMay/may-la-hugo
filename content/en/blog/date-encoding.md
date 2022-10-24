@@ -20,7 +20,7 @@ The general options to encode the time dimension like the birth date of a custom
 3. relative to "today" - e.g. number of days before today
 
 ## Pros and cons: separate encoding of year, month and maybe also day and weekday
-If you believe in astrology this might be your favorite to encode a birth date since the month is preserved. If you want to encode the production date it also might be useful to encode the weekday. That is because there might be a relation between product quality in production and weekday. Parts manufactured on Mondays may have the most severe quality variations.
+If you believe in astrology this might be your favorite to encode a birth date since the month is preserved. If you want to encode a *production date* it also might be useful to encode the weekday. That is because there might be a relation between product quality in production and weekday. Parts manufactured on Mondays may have the most severe quality variations.
 
 The disadvantage is that you need multiple columns to encode the date.
 Furthermore, this approach also suffers from a
