@@ -32,6 +32,7 @@ df = pd.read_csv(
     quoting=csv.QUOTE_NONE,
 )
 ```
+- load csv without header: `df = pd.read_csv("path_or_buffer", names=["column_name_1", "column_name_2"], header=None)`
 
 ## Load and Save CSV Parquet
 - save to parquet: `df.to_parquet("<file_name>.parquet.gz", compression="gzip")`
