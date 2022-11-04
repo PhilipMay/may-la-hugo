@@ -3,6 +3,7 @@ title: Iterate
 ---
 
 - break `iterable` into lists of length `n`: `list(more_itertools.chunked(iterable, n))` - [see](https://more-itertools.readthedocs.io/en/stable/api.html#more_itertools.chunked)
+- flatten a list of lists: `list(itertools.chain.from_iterable(list_of_lists))`
 
 ## Dict
 
