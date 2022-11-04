@@ -54,6 +54,7 @@ df = pd.read_csv(
 - sort Data
   - low to high values: `df.sort_values("column_name", inplace=True)`
   - high to low values: `df.sort_values("column_name", ascending=False, inplace=True)`
+  - high to low values & `Nan` values on top: `df.sort_values("column_name", ascending=False, na_position="first")`
 
 ## Combine Data
 
