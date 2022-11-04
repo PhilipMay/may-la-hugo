@@ -51,10 +51,11 @@ df = pd.read_csv(
   - only consider certain columns to identify duplicates, keep first (inplace): `df.drop_duplicates(list_of_cols, inplace=True, keep="first")`
 
 ## Modify Data
-- sort Data
+- sort
   - low to high values: `df.sort_values("column_name", inplace=True)`
   - high to low values: `df.sort_values("column_name", ascending=False, inplace=True)`
   - high to low values & `Nan` values on top: `df.sort_values("column_name", ascending=False, na_position="first")`
+- shuffle: `df = df.sample(frac=1).reset_index(drop=True)`
 
 ## Combine Data
 
