@@ -9,7 +9,7 @@ title: Graph Neural Network
 
 ### Video
 - [Stanford CS224W: Machine Learning with Graphs (Jure Leskovec, playlist)](https://www.youtube.com/watch?v=JAB_plj2rbA&list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn)
-- [ Stanford Graph Learning Workshop 2022 (7:57 h)](https://www.youtube.com/watch?v=GYW286H3SKw)
+- [Stanford Graph Learning Workshop 2022 (7:57 h)](https://www.youtube.com/watch?v=GYW286H3SKw) - [individual videos with slides](http://snap.stanford.edu/graphlearning-workshop-2022/)
 - [Petar Veličković](https://www.youtube.com/channel/UC9bkKi8Us7yevvP1KIBQHog/videos)
   - [Everything is Connected: Deep Learning on Graphs](https://www.youtube.com/watch?v=5h6MbQ_65-o)
   - [Theoretical Foundations of Graph Neural Networks](https://www.youtube.com/watch?v=uF53xsT7mjc)
