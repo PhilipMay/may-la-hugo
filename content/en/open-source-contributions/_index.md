@@ -108,6 +108,7 @@ It is based on the multilingual T5 model [google/mt5-small](https://huggingface.
 - add warmup_proportion param - make warmup_steps configurable [#140](https://github.com/huggingface/setfit/pull/140)
 - add option to use amp / FP16 [#134](https://github.com/huggingface/setfit/pull/134)
 - add num_epochs to train_step calculation [#139](https://github.com/huggingface/setfit/pull/134)
+- add more loss function options [#159](https://github.com/huggingface/setfit/pull/159)
 
 **Other Fixes and Improvements**
 - [google-research/electra](https://github.com/google-research/electra): add toggle to turn off `strip_accents` [#88](https://github.com/google-research/electra/pull/88)
