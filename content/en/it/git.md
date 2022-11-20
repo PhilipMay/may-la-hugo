@@ -89,7 +89,7 @@ git merge upstream/main
 git push
 ```
 
-Rebase changes form forked repository into development branch:
+Rebase changes from forked repository into development branch:
 ```bash
 git checkout <dev_branch>
 git rebase upstream/master
