@@ -135,6 +135,14 @@ Translation has been done with [deepl.com](https://www.deepl.com/).\
 This dataset is available on [GitHub](https://github.com/PhilipMay/stsb-multi-mt) and
 as a [Hugging Face Dataset](https://huggingface.co/datasets/stsb_multi_mt).
 
+**[deutsche-telekom/ger-backtrans-paraphrase](https://huggingface.co/datasets/deutsche-telekom/ger-backtrans-paraphrase)**\
+This is a dataset of more than 21 million German paraphrases.
+These are text pairs that have the same meaning but are expressed with different words.
+This dataset can be used for example to train semantic text embeddings.
+To do this, for example, [SentenceTransformers](https://www.sbert.net/)
+and the [MultipleNegativesRankingLoss](https://www.sbert.net/docs/package_reference/losses.html#multiplenegativesrankingloss)
+can be used.
+
 **[Wikipedia 2 Corpus](https://github.com/GermanT5/wikipedia2corpus)**<br/>
 Tools to extract and clean the Wikipedia texts to transform them into a text corpus for self-supervised NLP model training.
 Includes also a prepared corpus for English and German language.
