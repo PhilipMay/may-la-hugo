@@ -170,6 +170,7 @@ changed.
   - create `~/.gitignore_global` file with ignore settings
   - execute `git config --global core.excludesfile ~/.gitignore_global`
   - also see: <https://jayeshkawli.ghost.io/using-global-gitignore-on-mac/>
+- set VSCode as editor: `git config --global core.editor "code --wait"`
 
 ## Mac specific
 - system config file is here: `/Library/Developer/CommandLineTools/usr/share/git-core/gitconfig`
