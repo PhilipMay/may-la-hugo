@@ -170,3 +170,8 @@ changed.
   - create `~/.gitignore_global` file with ignore settings
   - execute `git config --global core.excludesfile ~/.gitignore_global`
   - also see: <https://jayeshkawli.ghost.io/using-global-gitignore-on-mac/>
+
+## Mac specific
+- system config file is here: `/Library/Developer/CommandLineTools/usr/share/git-core/gitconfig`
+- credentials helper `osxkeychain` is enabled by default (see system config)
+- add `.DS_Store` to global ignore settings (see above)
