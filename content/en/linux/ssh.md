@@ -15,7 +15,7 @@ Host <hostname> <ip>
 ```
 
 ### Using a Jump Server
-If you have a jump server <jump_server_hostname> write a normal confir for both servers and add this to the config of the target server: `ProxyJump <jump_server_hostname>`
+If you have a jump server <jump_server_hostname> write a normal config for both servers and add this to the config of the target server: `ProxyJump <jump_server_hostname>`
 
 If you also want to connect through an HTTP proxy add the proxy config lines to the config of the jump server.
 
