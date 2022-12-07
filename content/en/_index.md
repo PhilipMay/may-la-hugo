@@ -17,6 +17,7 @@ If you have questions or comments about this content please feel free to
 open a [GitHub issue](https://github.com/PhilipMay/may-la-hugo/issues/new).
 
 ## Profiles
+- <a rel="me" href="https://m.eniak.info/@philipmay">Mastodon</a>
 - [LinkedIn](https://www.linkedin.com/in/philip-may-3992889a/)
 - [Xing](https://www.xing.com/profile/Philip_May)
 - [Twitter](https://twitter.com/pMay)
