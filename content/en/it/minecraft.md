@@ -14,3 +14,10 @@ title: Minecraft
 - give permission to user: `lp user <username> permission set <permission_name> true`
 - list permissions of a user: `lp user <username> permission info`
 - also see LuckPerms: <https://luckperms.net/wiki/Usage>
+
+## Docker
+- marctv/minecraft-papermc-server
+  - https://hub.docker.com/r/marctv/minecraft-papermc-server
+  - https://github.com/mtoensing/Docker-Minecraft-PaperMC-Server
+- connect to console: `docker attach <container_name>`
+- disconnect from console: `ctrl + p` + `ctrl + q`
