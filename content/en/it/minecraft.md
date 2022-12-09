@@ -3,7 +3,7 @@ title: Minecraft
 ---
 
 ## Links
-- Paper MC: <https://paper.readthedocs.io/>
+- Paper MC: https://docs.papermc.io/paper/admin
 - LuckPerms: <https://luckperms.net/wiki/Usage>
 - EssentialsX: <https://essentialsx.net/wiki/Home.html>
   - Commands: <https://essinfo.xeya.me/commands.html>
