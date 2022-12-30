@@ -34,6 +34,43 @@ mock("foo", bar="something_I_do_not_care_about")
 mock.assert_called_once_with("foo", bar=ANY)
 ```
 
+## Spy
+If you do not want to replace a function with a mock,
+but want to observe the parameters passed to the function,
+a so-called spy can be used.
+
+### Spy on a Function
+To do this we use a combination of `patch` and the `wraps` argument.
+Note that the first argument of `patch` is a string.
+
+Example:
+```python
+def my_function(x):
+    return x + 1
+
+with patch("__main__.my_function", wraps=my_function) as wrapped_function:
+    result = my_function(5)
+    assert result == 6
+    wrapped_function.assert_called_once_with(5)
+```
+
+### Spy on a Method
+To do this we use a combination of `patch.object` and the `wraps` argument.
+Note that the first argument of `patch.object` is a object (instance).
+
+Example:
+```python
+class MyClass:
+    def my_function(self, x):
+        return x + 1
+
+my_instance = MyClass()
+with patch.object(my_instance, 'my_function', wraps=my_instance.my_function) as wrapped_method:
+    result = my_instance.my_function(5)
+    assert result == 6
+    wrapped_method.assert_called_once_with(5)
+```
+
 ## Seal a Mock
 Seal disables the automatic creation of mocks when accessing an attribute of the mock.
 Also see: https://docs.python.org/3/library/unittest.mock.html#unittest.mock.seal
