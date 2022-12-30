@@ -30,7 +30,7 @@ Example:
 ```python
 from unittest.mock import Mock, ANY
 mock = Mock(return_value=None)
-mock("foo", bar=object())
+mock("foo", bar="something_I_do_not_care_about")
 mock.assert_called_once_with("foo", bar=ANY)
 ```
 
