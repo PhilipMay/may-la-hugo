@@ -4,6 +4,10 @@ title: Mock
 
 ## Links
 - [unittest.mock Python doc](https://docs.python.org/3/library/unittest.mock.html)
+  - [`patch`](https://docs.python.org/3/library/unittest.mock.html#patch)
+  - [`patch.object`](https://docs.python.org/3/library/unittest.mock.html#patch-object)
+  - [`PropertyMock`](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.PropertyMock)
+  - [`mock_calls`](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.mock_calls)
 
 ## Asserts
 
