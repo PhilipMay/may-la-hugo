@@ -10,11 +10,14 @@ title: Logging
 
 ## Log variable Data
 Logging uses the old "%-style" of string formatting.
-Also see: https://docs.python.org/3/howto/logging.html#logging-variable-data
+Also see:
+- [Logging variable data](https://docs.python.org/3/howto/logging.html#logging-variable-data)
+- [Old string formatting](https://docs.python.org/3/tutorial/inputoutput.html#old-string-formatting)
+- [`printf`-style String Formatting](https://docs.python.org/3/library/stdtypes.html#old-string-formatting)
 
 Example:
 ```python
-logging.warning("%s before you %s', 'Look', 'leap!")
+_logger.warning("%s before you %s', 'Look', 'leap!")
 ```
 
 ## Root Logger Configuration
