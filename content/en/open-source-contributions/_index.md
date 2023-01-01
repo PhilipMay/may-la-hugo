@@ -154,3 +154,14 @@ English dataset with 25K user utterances for human-robot interaction.
 It is also available as a Hugging Face dataset:
 [deutsche-telekom/NLU-Evaluation-Data-en-de](https://huggingface.co/datasets/deutsche-telekom/NLU-Evaluation-Data-en-de)
 2. `NLU-Data-Home-Domain-similarity-de.csv`: This dataset contains German sentence pairs from `NLU-Data-Home-Domain-Annotated-All-de-en.csv` with semantic similarity scores.
+
+**[deutsche-telekom/NLU-few-shot-benchmark-en-de](https://huggingface.co/datasets/deutsche-telekom/NLU-few-shot-benchmark-en-de)**\
+This is a few-shot training dataset from the domain of human-robot interaction.
+It contains texts in German and English language with 64 different utterances (classes).
+Each utterance (class) has exactly 20 samples in the training set.
+This leads to a total of 1280 different training samples.
+
+The dataset is intended to benchmark the intent classifiers of chat bots in English and especially in German language.
+We are building on our
+[deutsche-telekom/NLU-Evaluation-Data-en-de](https://huggingface.co/datasets/deutsche-telekom/NLU-Evaluation-Data-en-de)
+data set.
