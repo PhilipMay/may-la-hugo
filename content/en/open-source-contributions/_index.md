@@ -149,5 +149,8 @@ Includes also a prepared corpus for English and German language.
 
 **[NLU Evaluation Data - German and English + Similarity](https://github.com/t-systems-on-site-services-gmbh/NLU-Evaluation-Data-de-en)**\
 This repository contains two datasets:
-1. `NLU-Data-Home-Domain-Annotated-All-de-en.csv`: This dataset contains a labeled multi-domain (21 domains) German and English dataset with 25K user utterances for human-robot interaction.
+1. `NLU-Data-Home-Domain-Annotated-All-de-en.csv`: This dataset contains a labeled multi-domain (21 domains) German and
+English dataset with 25K user utterances for human-robot interaction.
+It is also available as a Hugging Face dataset:
+[deutsche-telekom/NLU-Evaluation-Data-en-de](https://huggingface.co/datasets/deutsche-telekom/NLU-Evaluation-Data-en-de)
 2. `NLU-Data-Home-Domain-similarity-de.csv`: This dataset contains German sentence pairs from `NLU-Data-Home-Domain-Annotated-All-de-en.csv` with semantic similarity scores.
