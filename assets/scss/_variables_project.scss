@@ -23,3 +23,8 @@ $td-enable-google-fonts: false;
 .td-content > blockquote {
     border-left: 6px solid #797676 !important;
 }
+
+/* less space before code blocks */
+.td-content .highlight {
+    margin: unset !important;
+}
