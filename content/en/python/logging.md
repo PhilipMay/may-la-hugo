@@ -8,6 +8,13 @@ title: Logging
   - [Advanced Logging Tutorial](https://docs.python.org/3/howto/logging.html#advanced-logging-tutorial)
   - [Logging Levels](https://docs.python.org/3/howto/logging.html#logging-levels)
 
+## Module-Level Logger
+A convention is to use a module-level logger as follows:
+```python
+import logging
+_logger = logging.getLogger(__name__)
+```
+
 ## Log variable Data
 Logging uses the old "%-style" of string formatting.
 Also see:
