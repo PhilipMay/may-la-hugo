@@ -16,3 +16,12 @@ Example:
 ```python
 logging.warning("%s before you %s', 'Look', 'leap!")
 ```
+
+## Root Logger Configuration
+The easiest way to configure the root logger works like this:
+
+```python
+import logging
+logging.getLogger().setLevel(logging.INFO)
+logging.getLogger().addHandler(logging.StreamHandler())
+```
