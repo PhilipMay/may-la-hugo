@@ -105,6 +105,8 @@ It is based on the multilingual T5 model [google/mt5-small](https://huggingface.
 - fix for OOM problems on GPU with large datasets: [#525](https://github.com/UKPLab/sentence-transformers/pull/525)
 
 **[SetFit - Efficient Few-shot Learning with Sentence Transformers](https://github.com/huggingface/setfit)**
+- add option to normalize embeddings [#177](https://github.com/huggingface/setfit/pull/177)
+- add option to set `samples_per_label` [#196](https://github.com/huggingface/setfit/pull/196)
 - add warmup_proportion param - make warmup_steps configurable [#140](https://github.com/huggingface/setfit/pull/140)
 - add option to use amp / FP16 [#134](https://github.com/huggingface/setfit/pull/134)
 - add num_epochs to train_step calculation [#139](https://github.com/huggingface/setfit/pull/134)
