@@ -82,6 +82,9 @@ for trial in new_trials:
 
 ## More Topics / To-do
 - choose HP space
+  - when to use category
+  - when to use step
+  - how many?
 - monitor HP space / slice plot
 - monitor training
 - only train for x non failed iteration
