@@ -18,6 +18,8 @@ title: Linux Commands
   - needs package called: `lm-sensors`
   - the command is `sensors`
   - also see: <https://askubuntu.com/a/15833/478988>
+- infos about USB: `lsusb`
+- details about USB: `lsusb -vvv`
 
 ## Proxy Handling
 
