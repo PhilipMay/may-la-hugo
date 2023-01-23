@@ -12,6 +12,7 @@ title: NixOS
 
 ## Packages
 - Docker: https://nixos.wiki/wiki/Docker
+- Tor: https://nixos.wiki/wiki/Tor
 
 ## ZFS
 - https://nixos.wiki/wiki/ZFS
