@@ -14,4 +14,6 @@ title: NixOS
 - Docker: https://nixos.wiki/wiki/Docker
 
 ## ZFS
+- https://nixos.wiki/wiki/ZFS
+  - https://openzfs.github.io/openzfs-docs/Getting%20Started/NixOS/index.html
 - https://nixos.org/manual/nixos/stable/index.html#sec-linux-zfs
