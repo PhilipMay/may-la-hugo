@@ -3,7 +3,8 @@ title: ZFS
 ---
 
 ## Links
-- https://openzfs.github.io/openzfs-docs/
+- [OpenZFS Documentation](https://openzfs.github.io/openzfs-docs/)
+- [OpenZFS Wiki](https://openzfs.org/wiki/Main_Page)
 
 ## Commands
 - list drive ids: `ls -l /dev/disk/by-id/`
