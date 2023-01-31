@@ -25,6 +25,12 @@ title: Btrfs
   - TUT91782 Getting the most out of the btrfs filesystem (2017) - tech internals: https://www.youtube.com/watch?v=iwNg_fusT9A
 
 ## Commands
+
+### replace
+- see https://btrfs.readthedocs.io/en/latest/btrfs-replace.html
+- the `-r` option for the `start` subcommand is interesting: only read from srcdev if no other zero-defect mirror exists. (enable this if your drive has lots of read errors, the access would be very slow)
+
+
 ```bash
 # create raid1
 mkfs.btrfs -m raid1 -d raid1 /dev/sda1 /dev/sdb1
