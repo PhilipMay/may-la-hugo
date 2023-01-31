@@ -5,10 +5,11 @@ title: Disk and Partition Management
 ## Useful Commands
 - get disk UUID (for fstab): `blkid`
 - filesystem check: `e2fsck -vf /dev/<disk>`
-- delete all filesystems on disk: `wipefs -a <device>`
+- delete all filesystems on disk: `wipefs -a /dev/<disk>`
+- delete all GPT and MBR data structures: `sgdisk --zap-all /dev/<disk>`
 
 ## Mount
-- mount disk or patition: `mount /dev/sdb1 /mnt`
+- mount disk or patition: `mount /dev/<disk> /mnt`
 - mount everything defined in `/etc/fstab`: `mount -a`
 
 ## Backup with `dd`
