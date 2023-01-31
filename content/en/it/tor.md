@@ -4,7 +4,9 @@ title: "Tor"
 
 ## Links
 - https://www.torproject.org/
-- Relay Operations: https://community.torproject.org/relay/
+  - Relay Operations: https://community.torproject.org/relay/
+  - Middle/Guard relay: https://community.torproject.org/relay/setup/guard/
+  - Relay Post-install and good practices: https://community.torproject.org/relay/setup/post-install/
 
 ## Commands
 - see log: `journalctl -e -u tor@default`
@@ -34,3 +36,8 @@ MyFamily identity_key_fingerprint_01,identity_key_fingerprint_02
 ### Bridge config
 A bridge helps censored users connect to the Tor network.
 Do not specify `MyFamily` for bridge configs.
+
+## Backup
+After installation and start of the tor daemon it is a good idea to make a backup of your relay's long term identity keys.
+They are located at: `/var/lib/tor/keys`
+Best would be to backup all of `/var/lib/tor`.
