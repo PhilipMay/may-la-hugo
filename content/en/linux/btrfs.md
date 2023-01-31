@@ -11,10 +11,18 @@ title: Btrfs
   - [Multiple Devices](https://btrfs.wiki.kernel.org/index.php/Using_Btrfs_with_Multiple_Devices)
   - [Problem FAQ](https://btrfs.wiki.kernel.org/index.php/Problem_FAQ)
   - [Gotchas](https://btrfs.wiki.kernel.org/index.php/Gotchas)
+  - [Incremental Backup](https://btrfs.wiki.kernel.org/index.php/Incremental_Backup)
 - Read the Docs: https://btrfs.readthedocs.io/
   - man pages: https://btrfs.readthedocs.io/en/latest/man-index.html
   - mount options: https://btrfs.readthedocs.io/en/latest/btrfs-man5.html#mount-options
 - Btrfs @ Arch Linux: https://wiki.archlinux.org/title/btrfs
+- Videos and Talks
+  - Linuxcon Japan 2014 - Btrfs Talk
+    - YouTube: https://www.youtube.com/watch?v=ND3OKCP70_I
+    - Slides: http://marc.merlins.org/linux/talks/Btrfs-LC2014-JP/Btrfs.pdf
+  - Btrfs is awesome except when it isn't (2019) - many good disaster recovery hints: https://www.youtube.com/watch?v=qHalOdCZO9Q
+  - btrfs: The Best Filesystem You've Never Heard Of (2017): https://www.youtube.com/watch?v=-m01x3gHNjg
+  - TUT91782 Getting the most out of the btrfs filesystem (2017) - tech internals: https://www.youtube.com/watch?v=iwNg_fusT9A
 
 ## Commands
 ```bash
