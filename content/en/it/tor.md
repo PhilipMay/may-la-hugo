@@ -7,6 +7,7 @@ title: "Tor"
   - Relay Operations: https://community.torproject.org/relay/
   - Middle/Guard relay: https://community.torproject.org/relay/setup/guard/
   - Relay Post-install and good practices: https://community.torproject.org/relay/setup/post-install/
+- Tor @ Arch Linux: https://wiki.archlinux.org/title/Tor
 
 ## Commands
 - see log: `journalctl -e -u tor@default`
