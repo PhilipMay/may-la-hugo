@@ -1,5 +1,5 @@
 ---
-title: btrfs
+title: Btrfs
 ---
 
 ## Commands
