@@ -24,13 +24,25 @@ title: Btrfs
   - btrfs: The Best Filesystem You've Never Heard Of (2017): https://www.youtube.com/watch?v=-m01x3gHNjg
   - TUT91782 Getting the most out of the btrfs filesystem (2017) - tech internals: https://www.youtube.com/watch?v=iwNg_fusT9A
 
+## Tasks
+
+### Check redundancy (after a replaced disk)
+- use `btrfs filesystem usage -T` to check if all data, metadata and system is not "single" stored
+- fix this with `btrfs balance start -dconvert=raid1,soft -mconvert=raid1,soft /mnt/btrfs`
+- see https://wiki.tnonline.net/w/Btrfs/Replacing_a_disk
+
 ## Commands
+
+### balance
+- see https://btrfs.readthedocs.io/en/latest/btrfs-balance.html
+- filters
+  - `soft`: when converting between profiles chunks that already have the target profile are left untouched
 
 ### replace
 - see https://btrfs.readthedocs.io/en/latest/btrfs-replace.html
-- the `-r` option for the `start` subcommand is interesting: only read from srcdev if no other zero-defect mirror exists. (enable this if your drive has lots of read errors, the access would be very slow)
+- `start` subcommand with `-r`: only read from srcdev if no other zero-defect mirror exists. (enable this if your drive has lots of read errors, the access would be very slow)
 
-
+### Other Commands
 ```bash
 # create raid1
 mkfs.btrfs -m raid1 -d raid1 /dev/sda1 /dev/sdb1
