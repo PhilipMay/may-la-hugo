@@ -4,15 +4,14 @@ title: Disk and Partition Management
 
 ## Useful Commands
 - get disk UUID (for fstab): `blkid`
-- file check: `e2fsck -vf /dev/<disk>`
+- filesystem check: `e2fsck -vf /dev/<disk>`
+- delete all filesystems on disk: `wipefs -a <device>`
 
 ## Mount
-- mount disk: `mount /dev/sdb1 /mnt`
+- mount disk or patition: `mount /dev/sdb1 /mnt`
 - mount everything defined in `/etc/fstab`: `mount -a`
 
-## Partitioning
-
-## dd
+## Backup with `dd`
 - https://wiki.archlinux.org/title/Dd
 - backup a disk (or snapshot) to a file: `dd if=/dev/<disk> bs=64K status=progress | gzip -c  > <backup_name>.img.gz`
 - backup a disk (or snapshot) to a file (with parallel gzip): `dd if=/dev/<disk> bs=64K status=progress | pigz -c  > <backup_name>.img.gz`
@@ -43,7 +42,7 @@ title: Disk and Partition Management
 - revert to state of snapshot: `lvconvert --merge /dev/<volume_group_name>/<logical_volume_name>`
 - delete snapshot: `lvremove /dev/<volume_group_name>/<snapshot_name>`
 
-#### Recover from Image of Snapshot
+### Recover from Image of Snapshot
 - create snapshot of disk to recover
   - that snapshot must be a bit larget than the disk
   - if it is smaller or same size this might happen at merge time: `Unable to merge invalidated snapshot LV vg1/restore_test`
@@ -61,7 +60,7 @@ title: Disk and Partition Management
   - set new size of logical volume: `lvresize -L <size>G <volume_group_name>/<logical_volume_name>`
   - resize filesystem: `resize2fs /dev/<volume_group_name>/<logical_volume_name>`
 
-## Other Dosk Tools
+## Other Disk Tools / Commands
 - see disk activity
   - Debian: `apt-get install iotop`
   - command: `iotop -o -P -d 2`
