@@ -27,7 +27,7 @@ title: Btrfs
 ## Tasks
 
 ### Check redundancy (after a replaced disk)
-- use `btrfs filesystem usage -T` to check if all data, metadata and system is not "single" stored
+- use `btrfs filesystem usage -T <path>` to check if all data, metadata and system is not "single" stored
 - fix this with `btrfs balance start -dconvert=raid1,soft -mconvert=raid1,soft /mnt/btrfs`
 - see https://wiki.tnonline.net/w/Btrfs/Replacing_a_disk
 
