@@ -25,6 +25,10 @@ title: Btrfs
   - TUT91782 Getting the most out of the btrfs filesystem (2017) - tech internals: https://www.youtube.com/watch?v=iwNg_fusT9A
 
 ## Tasks
+- check free space: `btrfs filesystem usage <path>`
+- allocation of block group types: `btrfs filesystem df <path>`
+- device stats: `btrfs device stats <path>`
+- show subvolumes: `btrfs sub list <path>`
 
 ### Check redundancy (after a replaced disk)
 - use `btrfs filesystem usage -T <path>` to check if all data, metadata and system is not "single" stored
