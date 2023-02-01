@@ -6,6 +6,7 @@ title: File Compression
 - compress: `tar cvfz <target_file>.tgz <source_files_or_dir>`
 - fast compress: `tar -I pigz -cvf <target_file>.tgz <source_files_or_dir>`
 - view files in archive: `tar -tf <filename>.tgz`
+- test archive: `gunzip -t <filename>.tgz`
 
 ## zip
 - test a zip archive: `unzip -t <filename>.zip`
