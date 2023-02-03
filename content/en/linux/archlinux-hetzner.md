@@ -25,12 +25,19 @@ ip link
 
 wget https://mirror.chaoticum.net/arch/iso/2023.01.01/archlinux-bootstrap-2023.01.01-x86_64.tar.gz
 wget https://mirror.chaoticum.net/arch/iso/2023.01.01/archlinux-bootstrap-2023.01.01-x86_64.tar.gz.sig
-gpg --keyserver keyserver.ubuntu.com --keyserver-options auto-key-retrieve --verify archlinux-bootstrap-2023.01.01-x86_64.tar.gz.sig
+
+# check PGP fingerprint: 0x54449A5C
 
 # check signature
+gpg --keyserver keyserver.ubuntu.com --keyserver-options auto-key-retrieve --verify archlinux-bootstrap-2023.01.01-x86_64.tar.gz.sig
 
-tar xvfz archlinux-bootstrap-2023.01.01-x86_64.tar.gz
+# --numeric-owner preserve UID and GID of files in case existing Linux system uses different numbers than Arch
+# see https://wiki.archlinux.org/title/Install_Arch_Linux_from_existing_Linux#Method_A:_Using_the_bootstrap_tarball_(recommended)
+tar xvfz archlinux-bootstrap-2023.01.01-x86_64.tar.gz --numeric-owner
+
+# hack - see https://wiki.archlinux.org/title/Install_Arch_Linux_from_existing_Linux#Downloading_basic_tools
 mount --bind root.x86_64 root.x86_64
+
 ./root.x86_64/usr/bin/arch-chroot root.x86_64
 echo 'Server = https://geo.mirror.pkgbuild.com/$repo/os/$arch' > /etc/pacman.d/mirrorlist
 pacman-key --init
