@@ -64,6 +64,7 @@ nano /etc/locale.gen
 # uncomment en_US.UTF-8 UTF-8
 nano /etc/locale.conf
 # add LANG=en_US.UTF-8
+locale-gen
 nano /etc/vconsole.conf
 # add KEYMAP=de-latin1
 nano /etc/hostname
