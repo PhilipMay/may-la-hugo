@@ -73,12 +73,12 @@ mount -o compress=zstd,subvol=@var_log /dev/sda2 /mnt/var/log
 mkfs.ext4 /dev/sda2
 mount /dev/sda2 /mnt
 
-genfstab -U /mnt >> /etc/fstab
-# check /etc/fstab
-
 # pacstrap with -M option:
 # -M is to "Avoid copying the host’s mirrorlist to the target."
-pacstrap -G -M /mnt base grub linux linux-firmware openssh nano
+pacstrap -G -M /mnt base grub linux linux-firmware openssh nano btrfs-progs
+
+genfstab -U /mnt >> /mnt/etc/fstab
+# check /etc/fstab
 
 arch-chroot /mnt
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
