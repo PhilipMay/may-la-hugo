@@ -126,7 +126,12 @@ reboot
 ```
 
 ## Post Install
+
+### Pacman
 ```bash
+nano /etc/pacman.conf 
+# uncomment Color, VerbosePkgLists and ParallelDownloads
+
 # init pacman
 nano /etc/pacman.d/mirrorlist
 
@@ -137,7 +142,7 @@ pacman-key --populate archlinux
 pacman -Syyu
 ```
 
-## Other Post Install Todo
+### Other Post Install Todo
 - secure sshd
 - setup TRIM
   - https://wiki.archlinux.org/title/btrfs#SSD_TRIM
