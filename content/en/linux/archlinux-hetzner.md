@@ -12,16 +12,7 @@ title: Archlinux on Hetzner Cloud
 # boot rescue system
 # ssh into rescue system
 
-# get network name
-ip link
-#1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
-#    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-#2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP mode DEFAULT group default qlen 1000
-#    link/ether 96:00:01:da:19:a4 brd ff:ff:ff:ff:ff:ff
-#    altname enp0s3
-#    altname ens3
 
-## I forgot sshd, network config and should also add ssh key
 
 wget https://mirror.chaoticum.net/arch/iso/2023.01.01/archlinux-bootstrap-2023.01.01-x86_64.tar.gz
 wget https://mirror.chaoticum.net/arch/iso/2023.01.01/archlinux-bootstrap-2023.01.01-x86_64.tar.gz.sig
@@ -39,9 +30,12 @@ tar xvfz archlinux-bootstrap-2023.01.01-x86_64.tar.gz --numeric-owner
 mount --bind root.x86_64 root.x86_64
 
 ./root.x86_64/usr/bin/arch-chroot root.x86_64
-echo 'Server = https://geo.mirror.pkgbuild.com/$repo/os/$arch' > /etc/pacman.d/mirrorlist
+echo 'Server = https://mirror.chaoticum.net/arch/$repo/os/$arch' > /etc/pacman.d/mirrorlist
 pacman-key --init
 pacman-key --populate archlinux
+
+# install nano
+pacman -S nano
 
 ## fdisk
 ## Disklabel type: gpt
