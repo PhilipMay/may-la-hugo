@@ -62,9 +62,17 @@ btrfs subvolume create /mnt/@
 btrfs subvolume create /mnt/@home
 btrfs subvolume create /mnt/@snapshots
 btrfs subvolume create /mnt/@var_log
+umount /mnt
+mount -o compress=zstd,subvol=@ /dev/sda2 /mnt
+mkdir /mnt/home
+mount -o compress=zstd,subvol=@home /dev/sda2 /mnt/home
+mkdir -p /mnt/var/log 
+mount -o compress=zstd,subvol=@var_log /dev/sda2 /mnt/var/log
 
+# ext4
 mkfs.ext4 /dev/sda2
 mount /dev/sda2 /mnt
+
 genfstab -U /mnt >> /etc/fstab
 # check /etc/fstab
 
