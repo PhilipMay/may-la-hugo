@@ -43,17 +43,25 @@ echo 'Server = https://geo.mirror.pkgbuild.com/$repo/os/$arch' > /etc/pacman.d/m
 pacman-key --init
 pacman-key --populate archlinux
 
+## fdisk
+## Disklabel type: gpt
+## Device     Start      End  Sectors  Size Type
+## /dev/sda1   2048     4095     2048    1M BIOS boot
+## /dev/sda2   4096 39999487 39995392 19.1G Linux filesystem
+
 # refresh package lists
 pacman -Syyu
 
 # install Btrfs tools
 pacman -S btrfs-progs
 
-## fdisk
-## Disklabel type: gpt
-## Device     Start      End  Sectors  Size Type
-## /dev/sda1   2048     4095     2048    1M BIOS boot
-## /dev/sda2   4096 39999487 39995392 19.1G Linux filesystem
+# Btrfs filesystem
+mkfs.btrfs /dev/sda2
+mount -o compress=zstd /dev/sda2 /mnt
+btrfs subvolume create /mnt/@
+btrfs subvolume create /mnt/@home
+btrfs subvolume create /mnt/@snapshots
+btrfs subvolume create /mnt/@var_log
 
 mkfs.ext4 /dev/sda2
 mount /dev/sda2 /mnt
