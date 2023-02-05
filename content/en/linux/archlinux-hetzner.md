@@ -12,8 +12,6 @@ title: Archlinux on Hetzner Cloud
 # boot rescue system
 # ssh into rescue system
 
-
-
 wget https://mirror.chaoticum.net/arch/iso/2023.01.01/archlinux-bootstrap-2023.01.01-x86_64.tar.gz
 wget https://mirror.chaoticum.net/arch/iso/2023.01.01/archlinux-bootstrap-2023.01.01-x86_64.tar.gz.sig
 
@@ -36,6 +34,10 @@ pacman-key --populate archlinux
 
 # install nano
 pacman -S nano
+
+# clean disk
+wipefs -a /dev/<disk>
+sgdisk --zap-all /dev/<disk>
 
 ## fdisk
 ## Disklabel type: gpt
