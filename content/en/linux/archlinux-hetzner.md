@@ -140,4 +140,8 @@ pacman -Syyu
 ## Other Post Install Todo
 - secure sshd
 - setup TRIM
+  - https://wiki.archlinux.org/title/btrfs#SSD_TRIM
+  - https://wiki.archlinux.org/title/Solid_state_drive#Periodic_TRIM
+  - https://btrfs.readthedocs.io/en/latest/Trim.html
+  - https://btrfs.readthedocs.io/en/latest/btrfs-man5.html#mount-options
 - setup sudo
