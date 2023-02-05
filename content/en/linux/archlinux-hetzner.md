@@ -129,4 +129,10 @@ reboot
 ```bash
 # init pacman
 nano /etc/pacman.d/mirrorlist
+
+pacman-key --init
+pacman-key --populate archlinux
+
+# refresh package lists
+pacman -Syyu
 ```
