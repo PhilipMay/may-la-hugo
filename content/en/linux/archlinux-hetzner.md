@@ -37,6 +37,7 @@ pacman-key --populate archlinux
 pacman -S nano
 
 # clean disk
+pacman -S gptfdisk
 wipefs -a /dev/<disk>
 sgdisk --zap-all /dev/<disk>
 
