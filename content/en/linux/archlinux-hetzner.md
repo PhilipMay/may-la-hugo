@@ -191,3 +191,4 @@ systemctl enable --now fstrim.timer
   - https://btrfs.readthedocs.io/en/latest/Trim.html
   - https://btrfs.readthedocs.io/en/latest/btrfs-man5.html#mount-options
 - setup sudo
+- apply general recommendations: https://wiki.archlinux.org/title/General_recommendations
