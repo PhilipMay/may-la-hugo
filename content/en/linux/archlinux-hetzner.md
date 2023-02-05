@@ -150,6 +150,7 @@ btrfs subvolume delete /.snapshots
 mkdir /.snapshots
 # edit /etc/fstab and mount /@snapshots to /.snapshots
 mount /.snapshots
+# reboot and see if all is mounted
 ```
 
 ### Other Post Install Todo
