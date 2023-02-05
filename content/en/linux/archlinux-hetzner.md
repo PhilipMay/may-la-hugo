@@ -40,9 +40,7 @@ pacman -Syyu
 pacman -S nano
 
 # clean disk
-pacman -S gptfdisk
-wipefs -a /dev/<disk>
-sgdisk --zap-all /dev/<disk>
+blkdiscard -f /dev/sda
 
 ## fdisk
 ## Disklabel type: gpt
