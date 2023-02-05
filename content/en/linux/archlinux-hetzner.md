@@ -43,6 +43,12 @@ echo 'Server = https://geo.mirror.pkgbuild.com/$repo/os/$arch' > /etc/pacman.d/m
 pacman-key --init
 pacman-key --populate archlinux
 
+# refresh package lists
+pacman -Syyu
+
+# install Btrfs tools
+pacman -S btrfs-progs
+
 ## fdisk
 ## Disklabel type: gpt
 ## Device     Start      End  Sectors  Size Type
