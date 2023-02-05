@@ -123,5 +123,6 @@ passwd mike
 
 # logout & reboot
 exit
+exit
 reboot
 ```
