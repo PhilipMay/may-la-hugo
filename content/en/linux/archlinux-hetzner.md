@@ -176,6 +176,13 @@ grub-mkconfig -o /boot/grub/grub.cfg
 systemctl enable --now grub-btrfsd 
 ```
 
+### Other
+```bash
+# enable periodic TRIM
+# see https://wiki.archlinux.org/title/Solid_state_drive#Periodic_TRIM
+systemctl enable --now fstrim.timer
+```
+
 ### Other Post Install Todo
 - secure sshd
 - setup TRIM
