@@ -12,9 +12,9 @@ title: Archlinux on Hetzner Cloud
 # boot rescue system
 # ssh into rescue system
 
-# download current bootstrap image from https://mirror.chaoticum.net/arch/iso/2023.02.01/
-wget https://mirror.chaoticum.net/arch/iso/2023.01.01/archlinux-bootstrap-<date>-x86_64.tar.gz
-wget https://mirror.chaoticum.net/arch/iso/2023.01.01/archlinux-bootstrap-<date>-x86_64.tar.gz.sig
+# download current bootstrap image from https://mirror.chaoticum.net/arch/iso/latest/
+wget https://mirror.chaoticum.net/arch/iso/latest/archlinux-bootstrap-<date>-x86_64.tar.gz
+wget https://mirror.chaoticum.net/arch/iso/latest/archlinux-bootstrap-<date>-x86_64.tar.gz.sig
 
 # check PGP fingerprint: 0x54449A5C
 
