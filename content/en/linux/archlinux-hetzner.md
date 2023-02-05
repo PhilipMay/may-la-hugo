@@ -12,13 +12,14 @@ title: Archlinux on Hetzner Cloud
 # boot rescue system
 # ssh into rescue system
 
-wget https://mirror.chaoticum.net/arch/iso/2023.01.01/archlinux-bootstrap-2023.01.01-x86_64.tar.gz
-wget https://mirror.chaoticum.net/arch/iso/2023.01.01/archlinux-bootstrap-2023.01.01-x86_64.tar.gz.sig
+# download current bootstrap image from https://mirror.chaoticum.net/arch/iso/2023.02.01/
+wget https://mirror.chaoticum.net/arch/iso/2023.01.01/archlinux-bootstrap-<date>-x86_64.tar.gz
+wget https://mirror.chaoticum.net/arch/iso/2023.01.01/archlinux-bootstrap-<date>-x86_64.tar.gz.sig
 
 # check PGP fingerprint: 0x54449A5C
 
 # check signature
-gpg --keyserver keyserver.ubuntu.com --keyserver-options auto-key-retrieve --verify archlinux-bootstrap-2023.01.01-x86_64.tar.gz.sig
+gpg --keyserver keyserver.ubuntu.com --keyserver-options auto-key-retrieve --verify archlinux-bootstrap-<date>-x86_64.tar.gz.sig
 
 # --numeric-owner preserve UID and GID of files in case existing Linux system uses different numbers than Arch
 # see https://wiki.archlinux.org/title/Install_Arch_Linux_from_existing_Linux#Method_A:_Using_the_bootstrap_tarball_(recommended)
