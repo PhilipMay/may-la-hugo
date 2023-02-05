@@ -165,6 +165,10 @@ pacman -S snap-pac grub-btrfs
 # the grub main menu needs to be generated to make a menuentry for the snapshots sub menu
 # see https://github.com/Antynea/grub-btrfs#-usage
 grub-mkconfig -o /boot/grub/grub.cfg
+
+# enable daemon script that automatically updates the grub menu when it sees a snapshot being created or deleted
+# see https://github.com/Antynea/grub-btrfs#systemd-instructions
+systemctl enable --now grub-btrfsd 
 ```
 
 ### Other Post Install Todo
