@@ -90,7 +90,7 @@ nano /etc/hostname
 
 # Btrfs
 nano /etc/mkinitcpio.conf
-add `btrfs` to `MODULES`
+add btrfs to MODULES
 
 mkinitcpio -P
 
