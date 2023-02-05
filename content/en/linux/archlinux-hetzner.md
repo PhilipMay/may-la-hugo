@@ -185,7 +185,7 @@ systemctl enable --now fstrim.timer
 
 ### Other Post Install Todo
 - secure sshd
-- setup TRIM
+- check if TRIM and ssd options are correct
   - https://wiki.archlinux.org/title/btrfs#SSD_TRIM
   - https://wiki.archlinux.org/title/Solid_state_drive#Periodic_TRIM
   - https://btrfs.readthedocs.io/en/latest/Trim.html
