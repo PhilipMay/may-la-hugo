@@ -157,6 +157,10 @@ snapper -c root create --description test01
 
 # check if snapshot is stored
 ls -ls /.snapshots
+
+# install snap-pac to let pacman automatically use snapper to create pre/post snapshots 
+# install grub-btrfs to be able to boot from snapshots
+pacman -S snap-pac grub-btrfs
 ```
 
 ### Other Post Install Todo
