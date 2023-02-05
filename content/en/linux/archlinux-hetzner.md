@@ -161,6 +161,10 @@ ls -ls /.snapshots
 # install snap-pac to let pacman automatically use snapper to create pre/post snapshots 
 # install grub-btrfs to be able to boot from snapshots
 pacman -S snap-pac grub-btrfs
+
+# the grub main menu needs to be generated to make a menuentry for the snapshots sub menu
+# see https://github.com/Antynea/grub-btrfs#-usage
+grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ### Other Post Install Todo
