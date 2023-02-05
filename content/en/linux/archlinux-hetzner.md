@@ -124,3 +124,9 @@ exit
 exit
 reboot
 ```
+
+## Post Install
+```bash
+# init pacman
+nano /etc/pacman.d/mirrorlist
+```
