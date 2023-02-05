@@ -43,6 +43,7 @@ pacman -S nano
 blkdiscard -f /dev/sda
 
 ## fdisk
+fdisk /dev/sda
 ## Disklabel type: gpt
 ## Device     Start      End  Sectors  Size Type
 ## /dev/sda1   2048     4095     2048    1M BIOS boot
@@ -64,10 +65,6 @@ mkdir /mnt/home
 mount -o compress=zstd,subvol=@home /dev/sda2 /mnt/home
 mkdir -p /mnt/var/log 
 mount -o compress=zstd,subvol=@var_log /dev/sda2 /mnt/var/log
-
-# ext4
-mkfs.ext4 /dev/sda2
-mount /dev/sda2 /mnt
 
 # pacstrap with -M option:
 # -M is to "Avoid copying the host’s mirrorlist to the target."
