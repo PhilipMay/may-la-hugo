@@ -33,6 +33,9 @@ echo 'Server = https://mirror.chaoticum.net/arch/$repo/os/$arch' > /etc/pacman.d
 pacman-key --init
 pacman-key --populate archlinux
 
+# refresh package lists
+pacman -Syyu
+
 # install nano
 pacman -S nano
 
@@ -46,9 +49,6 @@ sgdisk --zap-all /dev/<disk>
 ## Device     Start      End  Sectors  Size Type
 ## /dev/sda1   2048     4095     2048    1M BIOS boot
 ## /dev/sda2   4096 39999487 39995392 19.1G Linux filesystem
-
-# refresh package lists
-pacman -Syyu
 
 # install Btrfs tools
 pacman -S btrfs-progs
