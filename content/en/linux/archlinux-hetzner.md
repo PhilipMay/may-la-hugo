@@ -142,6 +142,13 @@ pacman-key --populate archlinux
 pacman -Syyu
 ```
 
+### Install snapper
+```bash
+pacman -S snapper
+snapper -c root create-config /
+btrfs subvolume delete /.snapshots
+```
+
 ### Other Post Install Todo
 - secure sshd
 - setup TRIM
