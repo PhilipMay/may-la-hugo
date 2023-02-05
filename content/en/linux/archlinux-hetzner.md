@@ -67,7 +67,7 @@ mkdir -p /mnt/var/log
 mount -o compress=zstd,subvol=@var_log /dev/sda2 /mnt/var/log
 
 # what about
-# /var/cache/pacman/pkg
+# /var/cache/pacman/pkg or just /var/cache/pacman
 # /var/lib/portables
 # /var/lib/machines
 
