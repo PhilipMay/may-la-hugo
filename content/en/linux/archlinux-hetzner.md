@@ -151,6 +151,12 @@ mkdir /.snapshots
 # edit /etc/fstab and mount /@snapshots to /.snapshots
 mount /.snapshots
 # reboot and see if all is mounted
+
+# first manual test snapshot
+snapper -c root create --description test01
+
+# check if snapshot is stored
+ls -ls /.snapshots
 ```
 
 ### Other Post Install Todo
