@@ -147,6 +147,8 @@ pacman -Syyu
 pacman -S snapper
 snapper -c root create-config /
 btrfs subvolume delete /.snapshots
+mkdir /.snapshots
+# edit /etc/fstab and mount /@snapshots to /.snapshots
 ```
 
 ### Other Post Install Todo
