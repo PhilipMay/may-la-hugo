@@ -88,6 +88,10 @@ nano /etc/vconsole.conf
 nano /etc/hostname
 # add hostname
 
+# Btrfs
+nano /etc/mkinitcpio.conf
+add "btrfs" to ""
+
 mkinitcpio -P
 
 # set root password
