@@ -149,6 +149,7 @@ snapper -c root create-config /
 btrfs subvolume delete /.snapshots
 mkdir /.snapshots
 # edit /etc/fstab and mount /@snapshots to /.snapshots
+mount /.snapshots
 ```
 
 ### Other Post Install Todo
