@@ -42,12 +42,12 @@ pacman -S nano
 # clean disk
 blkdiscard -f /dev/sda
 
-## fdisk
+# fdisk
 fdisk /dev/sda
-## Disklabel type: gpt
-## Device     Start      End  Sectors  Size Type
-## /dev/sda1   2048     4095     2048    1M BIOS boot
-## /dev/sda2   4096 39999487 39995392 19.1G Linux filesystem
+# Disklabel type: gpt
+# Device     Start      End  Sectors  Size Type
+# /dev/sda1   2048     4095     2048    1M BIOS boot
+# /dev/sda2   4096 39999487 39995392 19.1G Linux filesystem
 
 # install Btrfs tools
 pacman -S btrfs-progs
@@ -71,7 +71,8 @@ mount -o compress=zstd,subvol=@var_log /dev/sda2 /mnt/var/log
 pacstrap -G -M /mnt base grub linux linux-firmware openssh nano btrfs-progs
 
 genfstab -U /mnt >> /mnt/etc/fstab
-# check /etc/fstab
+nano /mnt/etc/fstab
+# remove all space_cache and subvolid entries
 
 arch-chroot /mnt
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
