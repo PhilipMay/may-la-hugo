@@ -136,3 +136,8 @@ pacman-key --populate archlinux
 # refresh package lists
 pacman -Syyu
 ```
+
+## Other Post Install Todo
+- secure sshd
+- setup TRIM
+- setup sudo
