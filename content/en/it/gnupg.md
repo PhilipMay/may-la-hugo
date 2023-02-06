@@ -8,6 +8,7 @@ title: GnuPG
   - agent options: https://www.gnupg.org/documentation/manuals/gnupg/Agent-Options.html
   - configuration options: https://www.gnupg.org/documentation/manuals/gnupg/GPG-Configuration-Options.html
   - protocol specific options: https://www.gnupg.org/documentation/manuals/gnupg/OpenPGP-Options.html
+- GnuPG files: https://www.gnupg.org/documentation/manuals/gnupg/GPG-Configuration.html
 - YubiKey-Guide: https://github.com/drduh/YubiKey-Guide
 
 ## Get Infos
