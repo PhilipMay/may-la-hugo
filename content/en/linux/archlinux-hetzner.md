@@ -1,5 +1,5 @@
 ---
-title: Archlinux on Hetzner Cloud
+title: Archlinux on Hetzner Cloud with Btrfs
 ---
 
 ## Links
@@ -63,7 +63,7 @@ umount /mnt
 mount -o compress=zstd,subvol=@ /dev/sda2 /mnt
 mkdir /mnt/home
 mount -o compress=zstd,subvol=@home /dev/sda2 /mnt/home
-mkdir -p /mnt/var/log 
+mkdir -p /mnt/var/log
 mount -o compress=zstd,subvol=@var_log /dev/sda2 /mnt/var/log
 
 # what about
@@ -134,7 +134,7 @@ reboot
 
 ### Pacman
 ```bash
-nano /etc/pacman.conf 
+nano /etc/pacman.conf
 # uncomment Color, VerbosePkgLists and ParallelDownloads
 
 # init pacman
@@ -163,7 +163,7 @@ snapper -c root create --description test01
 # check if snapshot is stored
 ls -ls /.snapshots
 
-# install snap-pac to let pacman automatically use snapper to create pre/post snapshots 
+# install snap-pac to let pacman automatically use snapper to create pre/post snapshots
 # install grub-btrfs to be able to boot from snapshots
 pacman -S snap-pac grub-btrfs
 
@@ -173,7 +173,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 # enable daemon script that automatically updates the grub menu when it sees a snapshot being created or deleted
 # see https://github.com/Antynea/grub-btrfs#systemd-instructions
-systemctl enable --now grub-btrfsd 
+systemctl enable --now grub-btrfsd
 ```
 
 ### Other
@@ -190,5 +190,8 @@ systemctl enable --now fstrim.timer
   - https://wiki.archlinux.org/title/Solid_state_drive#Periodic_TRIM
   - https://btrfs.readthedocs.io/en/latest/Trim.html
   - https://btrfs.readthedocs.io/en/latest/btrfs-man5.html#mount-options
-- setup sudo
+- setup sudo and secure root
 - apply general recommendations: https://wiki.archlinux.org/title/General_recommendations
+- apply security: https://wiki.archlinux.org/title/Security
+- check "system maintenance": https://wiki.archlinux.org/title/System_maintenance
+- no `fsck` in hooks (mkinitcpio)
