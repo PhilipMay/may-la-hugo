@@ -71,6 +71,8 @@ mount -o compress=zstd,subvol=@var_log /dev/sda2 /mnt/var/log
 # /var/lib/portables
 # /var/lib/machines
 
+# more mount options https://wiki.archlinux.org/title/Security#Mount_options
+
 # pacstrap with -M option:
 # -M is to "Avoid copying the host’s mirrorlist to the target."
 pacstrap -G -M /mnt base grub linux linux-firmware openssh nano btrfs-progs
