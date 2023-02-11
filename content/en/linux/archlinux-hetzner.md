@@ -196,4 +196,4 @@ systemctl enable --now fstrim.timer
 - apply general recommendations: https://wiki.archlinux.org/title/General_recommendations
 - apply security: https://wiki.archlinux.org/title/Security
 - check "system maintenance": https://wiki.archlinux.org/title/System_maintenance
-- no `fsck` in hooks (mkinitcpio)
+- no `fsck` in hooks (mkinitcpio)?
