@@ -2,6 +2,14 @@
 title: SSH
 ---
 
+## Links
+- [Arch Linux - OpenSSH](https://wiki.archlinux.org/title/OpenSSH)
+- [Arch Linux - SSH keys](https://wiki.archlinux.org/title/SSH_keys)
+
+## Commands
+- generate default RSA key: `ssh-keygen`
+- generate Ed25519 key: `ssh-keygen -t ed25519`
+
 ## Config File
 
 ### Default Config
