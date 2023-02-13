@@ -9,6 +9,7 @@ title: SSH
 ## Commands
 - generate default RSA key: `ssh-keygen`
 - generate Ed25519 key: `ssh-keygen -t ed25519`
+- tell ssh to use password and not key auth: add option `-o PreferredAuthentications=password`
 
 ## Config File
 
