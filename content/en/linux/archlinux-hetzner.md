@@ -83,6 +83,7 @@ nano /mnt/etc/fstab
 
 arch-chroot /mnt
 ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+hwclock --systohc
 nano /etc/locale.gen
 # uncomment en_US.UTF-8 UTF-8
 locale-gen
