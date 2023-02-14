@@ -14,8 +14,9 @@ title: GnuPG
 
 ## Commands
 
-### Key Commands
+### Keyserver Commands
 - download key from keyserver: `gpg --recv-keys <key_id>`
+- update all keys from keyserver: `gpg --refresh-keys`
 
 ### Get Key Infos
 - list all keys: `gpg --list-keys`
