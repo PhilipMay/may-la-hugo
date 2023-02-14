@@ -4,6 +4,7 @@ title: GnuPG
 
 ## Links
 - The GNU Privacy Handbook: https://gnupg.org/gph/en/manual.html
+- Man page: https://www.gnupg.org/documentation/manpage.html
 - Options
   - agent options: https://www.gnupg.org/documentation/manuals/gnupg/Agent-Options.html
   - configuration options: https://www.gnupg.org/documentation/manuals/gnupg/GPG-Configuration-Options.html
@@ -11,9 +12,15 @@ title: GnuPG
 - GnuPG files: https://www.gnupg.org/documentation/manuals/gnupg/GPG-Configuration.html
 - YubiKey-Guide: https://github.com/drduh/YubiKey-Guide
 
-## Get Infos
+## Commands
+
+### Key Commands
+- download key from keyserver: `gpg --recv-keys <key_id>`
+
+### Get Key Infos
 - list all keys: `gpg --list-keys`
 - list all secret keys: `gpg --list-secret-keys`
+
 
 ## Mac install
 - install with `brew install gnupg pinentry-mac`
