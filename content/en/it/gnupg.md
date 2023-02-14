@@ -25,3 +25,7 @@ title: GnuPG
 ## Mac install
 - install with `brew install gnupg pinentry-mac`
 - set `pinentry-program /opt/homebrew/bin/pinentry-mac` in `~/.gnupg/gpg-agent.conf`
+
+## Important Keys
+- CAcert `A31D 4F81 EF4E BD07 B456 FA04 D2BB 0D01 65D0 FD58`: http://www.cacert.org/index.php?id=3
+- Pierre Schmitz (Arch Linux packager) `3E80 CA1A 8B89 F69C BA57  D98A 76A5 EF90 5444 9A5C`: https://archlinux.org/download/
