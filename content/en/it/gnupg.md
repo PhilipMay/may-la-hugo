@@ -35,3 +35,4 @@ title: GnuPG
 - CAcert `A31D 4F81 EF4E BD07 B456 FA04 D2BB 0D01 65D0 FD58`: http://www.cacert.org/index.php?id=3
 - Pierre Schmitz (Arch Linux packager) `3E80 CA1A 8B89 F69C BA57  D98A 76A5 EF90 5444 9A5C`: https://archlinux.org/download/
 - Debian CD signing key:`DF9B 9C49 EAA9 2984 3258  9D76 DA87 E80D 6294 BE9B`: https://www.debian.org/CD/verify
+- Tails: `` https://tails.boum.org/install/expert/
