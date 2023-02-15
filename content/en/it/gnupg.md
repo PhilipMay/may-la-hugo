@@ -23,6 +23,9 @@ title: GnuPG
 - list all keys: `gpg --list-keys`
 - list all secret keys: `gpg --list-secret-keys`
 
+## Key Card Commands (YubiKey)
+- `gpg --card-edit`
+- also see https://www.gnupg.org/howtos/card-howto/en/ch03s02.html
 
 ## Mac install
 - install with `brew install gnupg pinentry-mac`
