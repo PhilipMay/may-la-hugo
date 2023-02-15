@@ -12,6 +12,7 @@ title: Systemd
 - list enabled services: `systemctl list-unit-files --state=enabled`
 - list running services: `systemctl list-units --type=service`
 - list failed services: `systemctl --failed`
+- list timers: `systemctl list-timers`
 
 ## Journal
 - delete old journal files (ony keep last 2 days): `journalctl --vacuum-time=2d`
