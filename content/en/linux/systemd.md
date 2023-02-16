@@ -14,5 +14,12 @@ title: Systemd
 - list failed services: `systemctl --failed`
 - list timers: `systemctl list-timers`
 
+## List all since boot
+- all boot cycles: `journalctl -k -b all`
+- current boot : `journalctl -k`
+- last boot: `journalctl -k -b -1`
+- two boots prior: `journalctl -k -b -2`
+- and so on
+
 ## Journal
 - delete old journal files (ony keep last 2 days): `journalctl --vacuum-time=2d`
