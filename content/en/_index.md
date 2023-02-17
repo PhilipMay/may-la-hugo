@@ -26,4 +26,11 @@ open a [GitHub issue](https://github.com/PhilipMay/may-la-hugo/issues/new).
 - [Google Scholar](https://scholar.google.de/citations?user=tmsgMY8AAAAJ&hl=de&oi=sra)
 - ORCID: <https://orcid.org/0000-0002-2154-3421>
 
+## My GnuPG Key
+```
+uid: Philip May <philip@may.la>
+id: 0x50C63E539AB46E65
+fingerprint: ED58 9FCE B34D E148 29F5  24B7 50C6 3E53 9AB4 6E65
+```
+
 [![Build & Deploy May.la](https://github.com/PhilipMay/may-la-hugo/actions/workflows/make-deploy.yml/badge.svg)](https://github.com/PhilipMay/may-la-hugo/actions/workflows/make-deploy.yml)
