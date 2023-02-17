@@ -27,6 +27,11 @@ title: GnuPG
 - `gpg --card-edit`
 - also see https://www.gnupg.org/howtos/card-howto/en/ch03s02.html
 
+## Keyserver Links
+- https://keyserver.ubuntu.com/
+- https://keys.openpgp.org/
+- https://pgp.mit.edu/
+
 ## Mac install
 - install with `brew install gnupg pinentry-mac`
 - set `pinentry-program /opt/homebrew/bin/pinentry-mac` in `~/.gnupg/gpg-agent.conf`
