@@ -27,7 +27,7 @@ title: Btrfs
 ## Tasks
 - check free space: `btrfs filesystem usage <path>`
 - allocation of block group types: `btrfs filesystem df <path>`
-- device stats: `btrfs device stats <path>`
+- device stats (io errors): `btrfs device stats <path>` (supports `--format json`)
 - show subvolumes: `btrfs sub list <path>`
 
 ### Check redundancy (after a replaced disk)
