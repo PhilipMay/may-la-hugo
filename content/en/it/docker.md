@@ -11,6 +11,10 @@ title: Docker
 - list containers - [docker ps](https://docs.docker.com/engine/reference/commandline/ps/)
   - list running containers: `docker ps`
   - list all containers: `docker ps -a`
+- prune
+  - prune all images: `docker image prune --all`
+  - system: `docker system prune`
+  - system with images: `docker system prune --all`
 
 ## Dockerfile
 - set variables: `ARG variable=value`
