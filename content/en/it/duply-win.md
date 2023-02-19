@@ -33,8 +33,10 @@ title: Duply with Windows
   - add `ulimit -n 1024`
 
 ## Check Installation and configuration
-The following commands should execute without error or warning: -
-`duplicity --version` - `duply --version` - `gpg --version`
+The following commands should execute without error or warning: 
+- `duplicity --version` 
+- `duply --version` 
+- `gpg --version`
 
 ## Generate GPG Key
   - run `gpg --full-gen-key`
