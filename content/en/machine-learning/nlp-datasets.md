@@ -11,6 +11,8 @@ title: NLP Datasets
   * XNLI-15way: 10,000 multi lingual parallel sentences without label
 * Stanford Natural Language Inference (SNLI) Corpus: <https://nlp.stanford.edu/projects/snli/>
 * The Multi-Genre NLI Corpus: <https://cims.nyu.edu/~sbowman/multinli/>
+  * English language
+  * 3 classes: neutral, contradiction, entailment
 * PAWS: <https://github.com/google-research-datasets/paws>
 * PAWS-X: <https://github.com/google-research-datasets/paws/tree/master/pawsx>
   * lang: de, en, es, fr, ja, ko, zh
