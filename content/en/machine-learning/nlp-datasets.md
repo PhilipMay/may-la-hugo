@@ -4,6 +4,7 @@ title: NLP Datasets
 
 ## Links
 * XGLUE: <https://microsoft.github.io/XGLUE/>
+  * Lincense: non-commercial research purposes only
 * XNLI: <https://github.com/facebookresearch/XNLI>
   * XNLI 1.0
     * multi lang
