@@ -10,6 +10,8 @@ title: NLP Datasets
     * 2490 dev per lang., 5010 test per lang.
   * XNLI-15way: 10,000 multi lingual parallel sentences without label
 * Stanford Natural Language Inference (SNLI) Corpus: <https://nlp.stanford.edu/projects/snli/>
+  * English language
+  * 3 classes: neutral, contradiction, entailment
 * The Multi-Genre NLI Corpus: <https://cims.nyu.edu/~sbowman/multinli/>
   * English language
   * 3 classes: neutral, contradiction, entailment
