@@ -17,7 +17,7 @@ title: NLP Datasets
   * 29401 train, 2000 dev, 2000 test - size can be slightly different between languages
   * sentence1, sentence2, label
   * dev & test overlaps!
-  * label: binary
+  * label: binary (paraphrase or not paraphrase)
 * STS benchmark
   * Original dataset: <https://ixa2.si.ehu.eus/stswiki/index.php/STSbenchmark>
   * STSb Multi MT: <https://github.com/PhilipMay/stsb-multi-mt>
