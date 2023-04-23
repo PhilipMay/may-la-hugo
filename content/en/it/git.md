@@ -16,6 +16,11 @@ title: GIT
 - clone a specific branch: `git clone -b <branch_name> <remote_repo_url>`
 - rename local master branch to main: `git branch -m master main`
 
+## Ignore Things
+- put directory or file into `.gitignore`
+- for private ignore put it into `.git/info/exclude`
+- good Python ignore temnplate: https://github.com/github/gitignore/blob/main/Python.gitignore
+
 ## Branch handling
 - create and change Branch: `git checkout -b <new_branch_name>`
 - show all branches: `git branch -a`
