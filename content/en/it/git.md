@@ -28,7 +28,8 @@ title: GIT
   - delete a local branch: `git branch -d <local_branch>`
   - delete a remote branch `git push origin --delete <remote_branch>`
 
-## Avanced
+## Advanced
+- change upstream url: `git remote set-url origin new.git.url/here` - see [here](https://stackoverflow.com/a/2432799)
 - add remote after `git init`
   - add remote: `git remote add origin <git_url>`
   - set upstream: `git branch --set-upstream-to=origin/main main`
