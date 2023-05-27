@@ -4,7 +4,9 @@ title: pyenv
 
 ## Links
 - https://github.com/pyenv/pyenv
+- [Command Reference](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md)
 
 ## Commands
 - list available Python versions: `pyenv install -l`
 - install new Python version: `pyenv install <version>`
+- update with brew: `brew upgrade pyenv`
