@@ -22,3 +22,4 @@ Sphinx](https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html).
   <https://www.python.org/dev/peps/pep-0287/>
 - Google Python Style Guide:
   <https://github.com/google/styleguide/blob/gh-pages/pyguide.md>
+- Example Google Style Python Docstrings: https://www.sphinx-doc.org/en/master/usage/extensions/example_google.html
