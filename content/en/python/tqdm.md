@@ -24,4 +24,4 @@ with tqdm(total=100) as pbar:
         pbar.update(10)
 ```
 
-- automatically choose between console or notebook versions: `from tqdm.autonotebook import tqdm`
+- automatically choose between console or notebook versions: `from tqdm.auto import tqdm`
