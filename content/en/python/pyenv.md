@@ -14,3 +14,6 @@ title: pyenv
   - list installed Python versions: `pyenv versions`
 - update with brew: `brew upgrade pyenv`
 - set python version for current directory (or its subdirectories): `pyenv local <version>`
+
+## Mac Install
+- problems during Python install like `ModuleNotFoundError: No module named '_lzma'` can be fixed with `brew install xz`
