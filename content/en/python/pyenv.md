@@ -10,3 +10,4 @@ title: pyenv
 - list available Python versions: `pyenv install -l`
 - install new Python version: `pyenv install <version>`
 - update with brew: `brew upgrade pyenv`
+- set python version for current directory (or its subdirectories): `pyenv local <version>`
