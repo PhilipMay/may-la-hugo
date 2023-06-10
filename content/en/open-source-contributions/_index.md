@@ -14,17 +14,9 @@ This is an overview of my open source [projects](#projects),
 
 ## Projects
 
-**[HPOflow](https://github.com/telekom/HPOflow)**\
-Tools for [Optuna](https://optuna.readthedocs.io/),
-[MLflow](https://www.mlflow.org/docs/latest/index.html) and
-the integration of both
-
 **[XLSR – Cross-Lingual Sentence Representations](https://github.com/German-NLP-Group/xlsr)**\
 Models and training code for cross-lingual sentence representations like
 [T-Systems-onsite/cross-en-de-roberta-sentence-transformer](https://huggingface.co/T-Systems-onsite/cross-en-de-roberta-sentence-transformer)
-
-**[Transformer-Tools](https://github.com/telekom/transformer-tools)**\
-Tools for [Hugging Face / Transformers](https://github.com/huggingface/transformers)
 
 **[LightGBM Tools](https://github.com/telekom/lightgbm-tools)**\
 This Python package implements tools for [LightGBM](https://lightgbm.readthedocs.io/).
@@ -170,3 +162,13 @@ The dataset is intended to benchmark the intent classifiers of chat bots in Engl
 We are building on our
 [deutsche-telekom/NLU-Evaluation-Data-en-de](https://huggingface.co/datasets/deutsche-telekom/NLU-Evaluation-Data-en-de)
 data set.
+
+## Archived Projects
+
+**[HPOflow](https://github.com/telekom/HPOflow)**\
+Tools for [Optuna](https://optuna.readthedocs.io/),
+[MLflow](https://www.mlflow.org/docs/latest/index.html) and
+the integration of both
+
+**[Transformer-Tools](https://github.com/telekom/transformer-tools)**\
+Tools for [Hugging Face / Transformers](https://github.com/huggingface/transformers)
