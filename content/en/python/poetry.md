@@ -6,7 +6,7 @@ title: Poetry
 - https://python-poetry.org/docs/
 
 ## Config
-- see locale config: poetry config --list
+- see locale config: `poetry config --list`
 - store env. in locale project in `.venv`: `poetry config virtualenvs.in-project true --local`
 
 ## FAQ
