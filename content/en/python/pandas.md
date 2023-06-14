@@ -18,8 +18,8 @@ df = pd.DataFrame(data=data)
 ```
 
 ## Load and Save CSV
-- save to CSV: `df.to_csv("path_or_buffer")`
-- save to CSV (without row names / index): `df.to_csv("path_or_buffer", index=False)`
+- save to CSV: `df.to_csv("path_or_buffer.csv")`
+- save to CSV (without row names / index): `df.to_csv("path_or_buffer.csv", index=False)`
 - load from CSV:
 ```python
 df = pd.read_csv(
