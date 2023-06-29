@@ -109,6 +109,9 @@ git checkout <dev_branch>
 git rebase master
 # or
 git rebase main
+
+# abort
+git rebase --abort
 ```
 
 Conflicts look like this:
