@@ -4,10 +4,13 @@ title: Date & Time
 
 ## Links
 - [datetime - Basic date and time types](https://docs.python.org/3/library/datetime.html)
-  - [datetime.isoformat](https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat)
-  - [datetime.astimezone](https://docs.python.org/3/library/datetime.html#datetime.datetime.astimezone)
+  - [datetime.isoformat - convert to ISO 8601](https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat)
+  - [datetime.astimezone - convert timezone](https://docs.python.org/3/library/datetime.html#datetime.datetime.astimezone)
+  - [datetime.strptime - parse string to `datetime`](https://docs.python.org/3/library/datetime.html#datetime.datetime.strptime)
 
 ## Examples
+
+### Now - ISO 8601 and UTC
 The current time in ISO 8601 format.
 ```python
 from datetime import datetime
@@ -38,4 +41,13 @@ from datetime import datetime
 date = datetime.now().astimezone().isoformat(timespec="seconds")
 print(date)
 # output example: 2023-07-08T07:17:02+02:00
+```
+
+### Parsing
+Parse date string to ISO 8601 format.
+```python
+from datetime import datetime
+date = datetime.strptime("04.01.1976", "%d.%m.%Y").date().isoformat()
+print(date)
+# output example: 1976-01-04
 ```
