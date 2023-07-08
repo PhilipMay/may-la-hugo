@@ -10,34 +10,34 @@ title: ArangoDB
 - [Python-Arango doc](https://docs.python-arango.com/en/main/)
 
 ## AQL Examples
-### Query all documents from a collection:
+#### Query all documents from a collection:
 ```text
 FOR doc IN collection
   RETURN doc
 ```
 
-### Filter documents from a collection:
+#### Filter documents from a collection:
 ```text
 FOR doc IN collection
   FILTER doc.name == "Philip"
   RETURN doc
 ```
 
-### Filter documents without `surname` attribute name from a collection:
+#### Filter documents without `surname` attribute name from a collection:
 ```text
 FOR doc IN collection
   FILTER HAS(doc, "surname")
   RETURN doc
 ```
 
-### Query at most 10 documents from a collection:
+#### Query at most 10 documents from a collection:
 ```text
 FOR doc IN collection
   LIMIT 10
   RETURN doc
 ```
 
-### Filter and count documents from a collection:
+#### Filter and count documents from a collection:
 ```text
 FOR doc IN collection
   FILTER doc.name == "Philip"
