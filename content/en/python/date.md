@@ -11,7 +11,7 @@ title: Date & Time
 ## Examples
 
 ### Now - ISO 8601 and UTC
-The current date and time in ISO 8601 format.
+#### Current date and time in ISO 8601 format:
 ```python
 from datetime import datetime
 date = datetime.now().isoformat()
@@ -19,7 +19,7 @@ print(date)
 # output example: 2023-07-08T07:13:01.359471
 ```
 
-The current date and time in ISO 8601 format in seconds resolution.
+#### Current date and time in ISO 8601 format in seconds resolution:
 ```python
 from datetime import datetime
 date = datetime.now().isoformat(timespec="seconds")
@@ -27,7 +27,7 @@ print(date)
 # output example: 2023-07-08T07:13:44
 ```
 
-The current date and time in ISO 8601 format normalized to UTC time.
+#### Current date and time in ISO 8601 format normalized to UTC time:
 ```python
 from datetime import datetime
 date = datetime.now().astimezone().isoformat()
@@ -35,7 +35,7 @@ print(date)
 # output example: 2023-07-08T07:14:41.370299+02:00
 ```
 
-The current date and time in ISO 8601 format normalized to UTC time in seconds resolution.
+#### Current date and time in ISO 8601 format normalized to UTC time in seconds resolution:
 ```python
 from datetime import datetime
 date = datetime.now().astimezone().isoformat(timespec="seconds")
@@ -44,7 +44,7 @@ print(date)
 ```
 
 ### Parsing
-Parse date string (no time) to ISO 8601 format.
+#### Parse date string (no time) to ISO 8601 format:
 ```python
 from datetime import datetime
 date = datetime.strptime("04.01.1976", "%d.%m.%Y").date().isoformat()
