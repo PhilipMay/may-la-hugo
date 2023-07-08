@@ -10,7 +10,7 @@ title: Date & Time
 
 ## Examples
 
-### Now - ISO 8601 and UTC
+### Now, ISO 8601 and UTC
 #### Current date and time in ISO 8601 format:
 ```python
 from datetime import datetime
