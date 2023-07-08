@@ -44,5 +44,3 @@ FOR doc IN collection
   COLLECT WITH COUNT INTO length
   RETURN length
 ```
-
-
