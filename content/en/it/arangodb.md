@@ -23,6 +23,13 @@ FOR doc IN collection
   RETURN doc
 ```
 
+Filter documents without `surname` attribute name from a collection:
+```text
+FOR doc IN collection
+  FILTER HAS(doc, "surname")
+  RETURN doc
+```
+
 Query at most 10 documents from a collection:
 ```text
 FOR doc IN collection
@@ -37,3 +44,5 @@ FOR doc IN collection
   COLLECT WITH COUNT INTO length
   RETURN length
 ```
+
+
