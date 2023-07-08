@@ -8,6 +8,7 @@ title: Selenium
 - [Webdriver Manager for Python](https://github.com/SergeyPirogov/webdriver_manager)
 
 ## Options and commands
+- install: `pip install selenium`
 - implicit wait
   - tells WebDriver to poll DOM for a certain amount of time when trying to find any element
   - `driver.implicitly_wait(10)`
