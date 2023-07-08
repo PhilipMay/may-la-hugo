@@ -5,6 +5,7 @@ title: Selenium
 ## Links
 - [Selenium doc](https://www.selenium.dev/documentation/)
 - [Selenium with Python](https://selenium-python.readthedocs.io/)
+- [Webdriver Manager for Python](https://github.com/SergeyPirogov/webdriver_manager)
 
 ## Options and commands
 - implicit wait
