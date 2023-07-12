@@ -22,6 +22,16 @@ title: Sphinx
 - Read the Docs Sphinx Theme: <https://sphinx-rtd-theme.readthedocs.io/>
 - PyData Sphinx Theme: <https://pydata-sphinx-theme.readthedocs.io/>
 
+## Know-how
+
+### Turn warnings into errors
+It is possible to turn warnings into errors. This way a build fails when something is wrong.
+To do this edit the `Makefile` of Sphinx and change this line:
+```
+SPHINXOPTS    ?= -W
+```
+Also see: https://www.sphinx-doc.org/en/master/man/sphinx-build.html#cmdoption-sphinx-build-W
+
 ## MyST Syntax
 - add a link to a locale PDF or other file - [source](https://github.com/executablebooks/MyST-Parser/issues/341)
 ```markdown
