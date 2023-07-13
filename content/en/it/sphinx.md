@@ -18,7 +18,7 @@ title: Sphinx
 - MyST-NB: <https://myst-nb.readthedocs.io/>
 - markdown-it-py: https://markdown-it-py.readthedocs.io/
 - recommonmark: <https://recommonmark.readthedocs.io/>
-- Napoleon: <https://sphinxcontrib-napoleon.readthedocs.io/>
+- Napoleon: <https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html>
 - Read the Docs Sphinx Theme: <https://sphinx-rtd-theme.readthedocs.io/>
 - PyData Sphinx Theme: <https://pydata-sphinx-theme.readthedocs.io/>
 
