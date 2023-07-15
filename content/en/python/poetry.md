@@ -21,7 +21,7 @@ title: Poetry
 
 There currently is no support for making optional packages part of a specific group during their addition.
 You have to maintain this section in the `pyproject.toml` file by hand:
-```toml
+```
 [tool.poetry.extras]
 <group_name> = ["package"]
 ```
