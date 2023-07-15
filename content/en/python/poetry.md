@@ -14,6 +14,9 @@ title: Poetry
 - install current project with dependencies: `poetry install`
 - publish (and build) to PyPI: `poetry publish --build -u <username> -p <password>`
 
+## Dependency Groups & Extras
+- To declare a set of dependencies, which add additional functionality to the project during runtime, use extras instead.
+
 ## Config
 - see locale config: `poetry config --list`
 - store env. in locale project in `.venv`: `poetry config virtualenvs.in-project true --local`
