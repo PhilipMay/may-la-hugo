@@ -16,6 +16,8 @@ title: Poetry
 
 ## Dependency Groups & Extras
 - To declare a set of dependencies, which add additional functionality to the project during runtime, use extras instead.
+- add dependency: `poetry add <package>`
+- add optional dependency: `poetry add --optional <package>`
 
 ## Config
 - see locale config: `poetry config --list`
