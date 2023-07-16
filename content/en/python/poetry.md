@@ -26,7 +26,6 @@ You have to maintain this section in the `pyproject.toml` file by hand:
 <group_name> = ["package"]
 ```
 
-
 ## Config
 - see locale config: `poetry config --list`
 - store env. in locale project in `.venv`: `poetry config virtualenvs.in-project true --local`
