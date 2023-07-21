@@ -17,6 +17,7 @@ title: Poetry
 ## Dependency Groups & Extras
 - To declare a set of dependencies, which add additional functionality to the project during runtime, use extras instead.
 - add dependency: `poetry add <package>`
+- add dependency in a group (lint, test, etc.): `poetry add --group <group> <package>`
 - add optional dependency: `poetry add --optional <package>`
 
 There currently is no support for making optional packages part of a specific group during their addition.
