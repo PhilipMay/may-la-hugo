@@ -50,3 +50,15 @@ FOR doc IN collection
   COLLECT WITH COUNT INTO length
   RETURN length
 ```
+
+#### Group and Count
+- group by attribute and count
+- also see [COLLECT (v3.11)](https://www.arangodb.com/docs/3.11/aql/operations-collect.html)
+```text
+FOR doc IN collection
+  COLLECT attribute = doc.attribute WITH COUNT INTO count
+  RETURN { 
+    "attribute" : attribute, 
+    "count" : count 
+  }
+```
