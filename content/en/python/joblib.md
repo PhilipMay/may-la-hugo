@@ -2,6 +2,8 @@
 title: Joblib
 ---
 
+- install: `pip install joblib`
+
 ## Links
 - <https://joblib.readthedocs.io/>
 
