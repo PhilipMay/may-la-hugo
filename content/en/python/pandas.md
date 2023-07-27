@@ -20,7 +20,7 @@ df = pd.DataFrame(data=data)
 ## Load and Save CSV
 - save to CSV: `df.to_csv("path_or_buffer.csv")`
 - save to CSV (without row names / index): `df.to_csv("path_or_buffer.csv", index=False)`
-- save to compressed CSV (without row names / index): `df.to_csv("path_or_buffer.csv", compression="gzip", index=False)`
+- save to compressed CSV (without row names / index): `df.to_csv("path_or_buffer.csv.gz", compression="gzip", index=False)`
 - load from CSV:
 ```python
 df = pd.read_csv(
