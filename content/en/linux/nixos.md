@@ -18,6 +18,9 @@ title: NixOS
 - Docker: https://nixos.wiki/wiki/Docker
 - Tor: https://nixos.wiki/wiki/Tor
 
+## Know-how
+- get path to nix repository: `nix-instantiate --eval -E '<nixpkgs>'` - also see [Nix Search Paths](https://nixos.org/guides/nix-pills/nix-search-paths.html)
+
 ## ZFS
 - https://nixos.wiki/wiki/ZFS
   - https://openzfs.github.io/openzfs-docs/Getting%20Started/NixOS/index.html
