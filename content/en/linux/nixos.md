@@ -5,6 +5,8 @@ title: NixOS
 ## Links
 - [NixOS Manual (stable)](https://nixos.org/manual/nixos/stable/)
   - [User Management](https://nixos.org/manual/nixos/stable/index.html#sec-user-management)
+- NixOS Wiki
+  - [SSH public key authentication](https://nixos.wiki/wiki/SSH_public_key_authentication)
 - [Nixpkgs Manual](https://nixos.org/manual/nixpkgs/stable/)
 - [Nix Reference Manual](https://nixos.org/manual/nix/stable/)
 - Searches
