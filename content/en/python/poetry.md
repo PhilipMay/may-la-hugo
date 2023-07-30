@@ -34,5 +34,27 @@ You have to maintain this section in the `pyproject.toml` file by hand:
   - this creates a `poetry.toml` file in the locale project when it is not available
 - config file on Mac: `~/Library/Application\ Support/pypoetry/config.toml`
 
+### Lint Example
+```toml
+[tool.poetry.group.lint.dependencies]
+black = "*"
+ruff = "*"
+mypy = "*"
+
+[tool.black]
+line-length = 119
+target-versions = ["py38", "py39", "py310", "py311"]
+
+[tool.ruff]
+select = [
+  "E",  # pycodestyle
+  "F",  # pyflakes
+  "I",  # isort
+]
+line-length = 119
+fixable = ["I"]
+target-version = "py38"
+```
+
 ## FAQ
 - Where is the Poetry cache dir at Mac? `~/Library/Application Support/pypoetry`
