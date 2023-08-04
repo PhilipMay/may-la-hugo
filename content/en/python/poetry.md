@@ -7,6 +7,7 @@ title: Poetry
   - [Commands](https://python-poetry.org/docs/cli/)
   - [Configuration](https://python-poetry.org/docs/configuration/)
   - [Dependency specification (version constraints)](https://python-poetry.org/docs/dependency-specification/)
+  - [The pyproject.toml file](https://python-poetry.org/docs/pyproject/)
 
 ## Commands
 - initialize a pre-existing project: `poetry init`
