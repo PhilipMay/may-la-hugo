@@ -34,6 +34,9 @@ You have to maintain this section in the `pyproject.toml` file by hand:
   - see https://python-poetry.org/docs/configuration/#virtualenvsin-project
   - this creates a `poetry.toml` file in the locale project when it is not available
 - config file on Mac: `~/Library/Application\ Support/pypoetry/config.toml`
+- Poetry directories on Mac:
+  - `~/Library/Caches/pypoetry`
+  - `~/Library/Application\ Support/pypoetry`
 
 ### Lint Example
 ```toml
