@@ -24,3 +24,8 @@ title: pyenv
 
 ## Mac Install
 - problems during Python install like `ModuleNotFoundError: No module named '_lzma'` can be fixed with `brew install xz`
+
+## Remove failed Builds (Mac)
+- change to `/var/folders`
+- search for `python-build`: `find . -name "*python-build*" | less`
+- remove folders
