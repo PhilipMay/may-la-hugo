@@ -33,7 +33,7 @@ You have to maintain this section in the `pyproject.toml` file by hand:
 - store env. in locale project in `.venv`: `poetry config virtualenvs.in-project true --local`
   - see https://python-poetry.org/docs/configuration/#virtualenvsin-project
   - this creates a `poetry.toml` file in the locale project when it is not available
-- always copy python into `venv`: `poetry config  virtualenvs.options.always-copy true`
+- always copy python into `venv`: `poetry config virtualenvs.options.always-copy true`
 - config file on Mac: `~/Library/Application\ Support/pypoetry/config.toml`
 - Poetry directories on Mac:
   - `~/Library/Caches/pypoetry`
