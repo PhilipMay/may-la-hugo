@@ -1,0 +1,12 @@
+---
+title: Linter
+---
+
+## Links
+- [Ruff](https://beta.ruff.rs/)
+- [mypy](https://mypy.readthedocs.io/)
+- [Black](https://black.readthedocs.io/)
+- [mdformat](https://mdformat.readthedocs.io/)
+
+## mypy
+- inline ignore: `# type: ignore`
