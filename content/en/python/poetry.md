@@ -37,6 +37,7 @@ You have to maintain this section in the `pyproject.toml` file by hand:
 - Poetry directories on Mac:
   - `~/Library/Caches/pypoetry`
   - `~/Library/Application\ Support/pypoetry`
+  - `~/.local/bin` with a symlink to the poetry executable
 
 ### Lint Example
 ```toml
