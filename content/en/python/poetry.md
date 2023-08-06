@@ -61,6 +61,9 @@ select = [
 line-length = 119
 fixable = ["I"]
 target-version = "py38"
+
+[tool.mypy]
+ignore_missing_imports = true
 ```
 
 ## FAQ
