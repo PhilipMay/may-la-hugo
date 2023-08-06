@@ -6,7 +6,8 @@ title: Jupyter & JupyterLab
 - `nb_conda_kernels`: <https://github.com/Anaconda-Platform/nb_conda_kernels>
 
 ## Install JupyterLab
-- `conda install jupyterlab nb_conda_kernels`
+- with pip: `pip install jupyterlab`
+- with conda: `conda install jupyterlab nb_conda_kernels`
 
 ## View Jupyter Notebook online
 This can be done here: <https://nbviewer.jupyter.org/>
