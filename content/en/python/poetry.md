@@ -47,6 +47,7 @@ You have to maintain this section in the `pyproject.toml` file by hand:
 black = "*"
 ruff = "*"
 mypy = "*"
+mdformat = "*"
 
 [tool.black]
 line-length = 119
