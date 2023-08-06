@@ -181,6 +181,11 @@ changed.
   - also see: <https://jayeshkawli.ghost.io/using-global-gitignore-on-mac/>
 - set VSCode as editor: `git config --global core.editor "code --wait"`
 
+## LFS
+- install LFS (on Mac): `brew install git-lfs`
+- `git lfs install`
+- `git lfs track "*.gz"`
+
 ## Mac specific
 - system config file is here: `/Library/Developer/CommandLineTools/usr/share/git-core/gitconfig`
 - credentials helper `osxkeychain` is enabled by default (see system config)
