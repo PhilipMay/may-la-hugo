@@ -34,3 +34,9 @@ The easiest way to configure the root logger works like this:
 import logging
 logging.basicConfig(format="%(levelname)s:%(message)s", level=logging.DEBUG)
 ```
+
+## Change Logger Level
+Example:
+```python
+logging.getLogger("module").setLevel(logging.DEBUG)
+```
