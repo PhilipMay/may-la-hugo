@@ -32,6 +32,5 @@ The easiest way to configure the root logger works like this:
 
 ```python
 import logging
-logging.getLogger().setLevel(logging.INFO)
-logging.getLogger().addHandler(logging.StreamHandler())
+logging.basicConfig(format="%(levelname)s:%(message)s", level=logging.DEBUG)
 ```
