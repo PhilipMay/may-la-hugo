@@ -57,8 +57,16 @@ FOR doc IN collection
 ```text
 FOR doc IN collection
   COLLECT attribute = doc.attribute WITH COUNT INTO count
-  RETURN { 
-    "attribute" : attribute, 
-    "count" : count 
+  RETURN {
+    "attribute" : attribute,
+    "count" : count
   }
+```
+
+#### Delete Attribute
+- also see [UPDATE (v3.11)](https://www.arangodb.com/docs/stable/aql/operations-update.html#keepnull)
+```text
+FOR doc IN collection
+  UPDATE doc WITH { not_needed: null } IN collection
+  OPTIONS { keepNull: false }
 ```
