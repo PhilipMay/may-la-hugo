@@ -15,7 +15,7 @@ title: Linter
 - see https://beta.ruff.rs/docs/
 - ignore formatting in one line: `# noqa: id_to_ignore`
 
-## `pyproject.toml` Config
+## Useful `pyproject.toml` Config
 
 ```toml
 [tool.mypy]
