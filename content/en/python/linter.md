@@ -34,6 +34,7 @@ select = [
   "F",  # pyflakes
   "I",  # isort
   "D",  # pydocstyle
+  "CPY001",  # flake8-copyright
 ]
 line-length = 119
 fixable = ["I"]
