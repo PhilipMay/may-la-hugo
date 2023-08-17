@@ -9,3 +9,7 @@ title: Linter
 ## mypy
 - see https://mypy.readthedocs.io/
 - ignore formatting in one line: `# type: ignore`
+
+## Ruff
+- see https://beta.ruff.rs/docs/
+- ignore formatting in one line: `# noqa: id_to_ignore`
