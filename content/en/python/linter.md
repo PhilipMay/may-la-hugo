@@ -14,3 +14,10 @@ title: Linter
 ## Ruff
 - see https://beta.ruff.rs/docs/
 - ignore formatting in one line: `# noqa: id_to_ignore`
+
+## `pyproject.toml` Config
+
+```toml
+[tool.mypy]
+ignore_missing_imports = true
+```
