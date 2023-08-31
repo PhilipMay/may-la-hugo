@@ -55,11 +55,11 @@ stash@{2}: WIP on master: 21d80a5 Add number to log
   - apply newest (last) stash: `git stash apply`
   - apply selected stash: `git stash apply <number>`
 
-
 ## Special Commands
 - show history of last ref updates: `git reflog`
 - list tracked repositories: `git remote -v`
 - signoff last (5) commits: `git rebase --signoff HEAD~5` - see https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---signoff
+- squash content of feature branch back to main branch: `git rebase --keep-base -i main`
 
 ## Undo things
 - unstage files staged with git add: `git reset`
