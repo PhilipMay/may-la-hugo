@@ -70,3 +70,12 @@ FOR doc IN collection
   UPDATE doc WITH { not_needed: null } IN collection
   OPTIONS { keepNull: false }
 ```
+
+#### Add a new Attribute
+- also see [UPDATE (c3.11)](https://www.arangodb.com/docs/stable/aql/operations-update.html)
+```text
+FOR doc IN collection
+  UPDATE doc
+  WITH { new_attribute: "new_value" } 
+  IN collection
+```
