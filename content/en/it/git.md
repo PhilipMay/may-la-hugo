@@ -183,8 +183,9 @@ changed.
 
 ## LFS
 - install LFS (on Mac): `brew install git-lfs`
-- `git lfs install`
-- `git lfs track "*.gz"`
+- activate LFS for locale git repo: `git lfs install`
+- add file to LFS tracking: `git lfs track "*.gz"`
+- list files tracked by LFS: `git lfs ls-files`
 
 ## Mac specific
 - system config file is here: `/Library/Developer/CommandLineTools/usr/share/git-core/gitconfig`
