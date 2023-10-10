@@ -16,6 +16,19 @@ title: Docker
   - system: `docker system prune`
   - system with images: `docker system prune --all`
 
+## Config
+
+### Log File Rotation
+- also see https://stackoverflow.com/a/42510314
+- edit `daemon.json` in `/etc/docker`:
+
+```json
+{
+  "log-driver": "json-file",
+  "log-opts": {"max-size": "10m", "max-file": "3"}
+}
+```
+
 ## Dockerfile
 - set variables: `ARG variable=value`
 - use variables example: `WORKDIR /home/$variable`
