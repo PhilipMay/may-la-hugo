@@ -187,7 +187,7 @@ changed.
 - add file to LFS tracking: `git lfs track "*.gz"`
 - list files tracked by LFS: `git lfs ls-files`
 
-### Move files to LFS
+### Move files to LFS in existing Project
 - dry run: `git lfs migrate info --everything --include="*.tgz"`
 - run migration: `git lfs migrate import --everything --include="*.tgz" --verbose
 - cleanup step 1: `git reflog expire --expire-unreachable=now --all`
