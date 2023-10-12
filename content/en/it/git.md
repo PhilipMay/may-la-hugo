@@ -187,6 +187,17 @@ changed.
 - add file to LFS tracking: `git lfs track "*.gz"`
 - list files tracked by LFS: `git lfs ls-files`
 
+### Move files to LFS
+- dry run: `git lfs migrate info --everything --include="*.tgz"`
+- run migration: `git lfs migrate import --everything --include="*.tgz" --verbose
+- cleanup step 1: `git reflog expire --expire-unreachable=now --all`
+- cleanup step 2: `git gc --prune=now`
+- also see
+  - https://notiz.dev/blog/migrate-git-repo-to-git-lfs
+  - https://github.com/git-lfs/git-lfs/blob/main/docs/man/git-lfs-migrate.adoc
+  - https://github.com/git-lfs/git-lfs/wiki/Tutorial?utm_source=pocket_saves#migrating-existing-repository-data-to-lfs
+
+
 ## Mac specific
 - system config file is here: `/Library/Developer/CommandLineTools/usr/share/git-core/gitconfig`
 - credentials helper `osxkeychain` is enabled by default (see system config)
