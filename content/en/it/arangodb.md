@@ -63,6 +63,13 @@ FOR doc IN collection
   }
 ```
 
+#### Rename Attribute
+```text
+FOR doc IN collection
+  UPDATE doc WITH { new_name: doc.old_name } IN collection
+  OPTIONS { keepNull: false }
+```
+
 #### Delete Attribute
 - also see [UPDATE (v3.11)](https://www.arangodb.com/docs/stable/aql/operations-update.html#keepnull)
 ```text
