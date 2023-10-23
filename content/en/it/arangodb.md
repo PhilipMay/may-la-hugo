@@ -64,9 +64,13 @@ FOR doc IN collection
 ```
 
 #### Rename Attribute
+- also see https://stackoverflow.com/a/55988037
 ```text
 FOR doc IN collection
-  UPDATE doc WITH { new_name: doc.old_name } IN collection
+  UPDATE doc WITH {
+    new_name: doc.old_name,
+    old_name: null
+  } IN collection
   OPTIONS { keepNull: false }
 ```
 
