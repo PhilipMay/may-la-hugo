@@ -63,6 +63,14 @@ FOR doc IN collection
   }
 ```
 
+#### Delete Documents
+- also see [REMOVE (v3.11)](https://docs.arangodb.com/3.11/aql/high-level-operations/remove/)
+```text
+FOR doc IN collection
+  FILTER doc.attribute == "Something"
+  REMOVE { _key: doc._key } IN collection
+```
+
 #### Rename Attribute
 - also see https://stackoverflow.com/a/55988037
 ```text
