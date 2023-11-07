@@ -14,8 +14,10 @@ title: Sphinx
 
 ## Extensions and Themes
 - ABlog: <https://ablog.readthedocs.io/>
-- MyST - Markedly Structured Text: <https://myst-parser.readthedocs.io/>
-- MyST-NB: <https://myst-nb.readthedocs.io/>
+- MyST
+  - MyST parser: <https://myst-parser.readthedocs.io/>
+  - MyST-NB: <https://myst-nb.readthedocs.io/>
+- Sphinx Design: <https://sphinx-design.readthedocs.io/>
 - markdown-it-py: https://markdown-it-py.readthedocs.io/
 - recommonmark: <https://recommonmark.readthedocs.io/>
 - Napoleon: <https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html>
