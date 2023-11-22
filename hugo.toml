@@ -65,8 +65,7 @@ anchor = "smart"
 
 # Language configuration
 
-[languages]
-[languages.en]
+[languages.en.params]
 title = "May.la"
 description = "Philip May's page about machine learning, Python, Linux and IT"
 languageName ="English"
@@ -130,7 +129,7 @@ github_branch= "main"
 #gcs_engine_id = "d72aa9b2712488cc3"
 
 # Enable Algolia DocSearch
-algolia_docsearch = false
+#algolia_docsearch = false
 
 # Enable Lunr.js offline search
 offlineSearch = true
