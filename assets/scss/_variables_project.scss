@@ -14,6 +14,11 @@ div.td-page-meta {
 
 $primary: #343131;
 
+/* center nav bar into middle */
+.td-navbar-nav-scroll.ms-md-auto {
+    margin-left: unset !important;
+}
+
 /* no Google fonts */
 $td-enable-google-fonts: false;
 
