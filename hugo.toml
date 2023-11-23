@@ -1,4 +1,6 @@
 baseURL = "/"
+
+##
 title = "May.la"
 
 # Language settings
@@ -45,35 +47,31 @@ pygmentsStyle = "tango"
 [permalinks]
 blog = "/:section/:year/:month/:day/:slug/"
 
-## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday
-[blackfriday]
-plainIDAnchors = true
-hrefTargetBlank = true
-angledQuotes = false
-latexDashes = true
-
 # Image processing configuration.
 [imaging]
 resampleFilter = "CatmullRom"
 quality = 75
 anchor = "smart"
 
-[services]
-[services.googleAnalytics]
-# Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-# id = "UA-00000000-0"
-
 # Language configuration
 
-[languages.en.params]
-title = "May.la"
-description = "Philip May's page about machine learning, Python, Linux and IT"
+[languages]
+[languages.en]
 languageName ="English"
 # Weight used for sorting.
 weight = 1
+[languages.en.params]
+##
+title = "May.la"
+##
+description = "Philip May's page about machine learning, Python, Linux and IT"
+
+## removed languages here
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.parser.attribute]
+      block = true
     [markup.goldmark.renderer]
       unsafe = true
   [markup.highlight]
@@ -89,8 +87,10 @@ weight = 1
 section = ["HTML", "print", "RSS"]
 
 [params]
-#copyright = "The Docsy Authors"
-#privacy_policy = "https://policies.google.com/privacy"
+##
+copyright = "Philip May"
+## removed
+# privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
@@ -114,9 +114,11 @@ version = "0.0"
 url_latest_version = "https://example.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
+##
 github_repo = "https://github.com/PhilipMay/may-la-hugo"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-#github_project_repo = "https://github.com/google/docsy"
+## removed
+# github_project_repo = "https://github.com/google/docsy"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -126,12 +128,11 @@ github_repo = "https://github.com/PhilipMay/may-la-hugo"
 github_branch= "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-#gcs_engine_id = "d72aa9b2712488cc3"
-
-# Enable Algolia DocSearch
-#algolia_docsearch = false
+## removed
+# gcs_engine_id = "d72aa9b2712488cc3"
 
 # Enable Lunr.js offline search
+## changed to true
 offlineSearch = true
 
 # Enable syntax highlighting and copy buttons on code blocks with Prism
@@ -142,13 +143,13 @@ prism_syntax_highlighting = false
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
 # Set to true to disable the About link in the site footer
-footer_about_disable = true
+footer_about_disable = false
 # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
-navbar_logo = false
+navbar_logo = true
 # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
 navbar_translucent_over_cover_disable = false
 # Enable to show the side bar menu in its compact state.
-sidebar_menu_compact = true
+sidebar_menu_compact = false
 # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
 sidebar_search_disable = false
 
@@ -156,11 +157,12 @@ sidebar_search_disable = false
 # This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
 # add "hide_feedback: true" to the page's front matter.
-#[params.ui.feedback]
-#enable = true
+[params.ui.feedback]
+## disabled
+enable = false
 ## The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-#yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
-#no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page,
@@ -168,6 +170,7 @@ sidebar_search_disable = false
 [params.ui.readingtime]
 enable = false
 
+## removed all
 #[params.links]
 ## End user relevant links. These will show up on left side of footer and in the community page if you have one.
 #[[params.links.user]]
@@ -205,14 +208,11 @@ enable = false
 # hugo module configuration
 
 [module]
-  # uncomment line below for temporary local development of module
-  # replacements = "github.com/google/docsy -> ../../docsy"
+  # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
+  # workspace = "docsy.work"
   [module.hugoVersion]
     extended = true
-    min = "0.75.0"
+    min = "0.110.0"
   [[module.imports]]
     path = "github.com/google/docsy"
-    disable = false
-  [[module.imports]]
-    path = "github.com/google/docsy/dependencies"
     disable = false
