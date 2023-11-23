@@ -9,6 +9,14 @@ a.td-rss-button {
     visibility: hidden;
 }
 
+/*
+Styles for the page meta information container.
+It adds a bottom border.
+*/
+div.td-page-meta {
+    border-bottom: 1px solid black;
+}
+
 $primary: #343131;
 
 /* no Google fonts */
