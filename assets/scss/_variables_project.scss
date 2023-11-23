@@ -1,9 +1,4 @@
-/*
-- hide search field in top bar
-- hide RSS button
-*/
-div.td-search > input,
-div.td-search__icon,
+/* hide RSS button */
 a.td-rss-button {
     clear: both;
     visibility: hidden;
