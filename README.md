@@ -1,5 +1,12 @@
 # May.la Hugo
 
+**We decided to archive this project. 
+The content will now be continued with the help of 
+[Sphinx](https://www.sphinx-doc.org/) and 
+[MyST](https://myst-parser.readthedocs.io/) 
+in the project 
+[may-la-myst](https://github.com/PhilipMay/may-la-myst).**
+
 [![Build & Deploy May.la](https://github.com/PhilipMay/may-la-hugo/actions/workflows/make-deploy.yml/badge.svg)](https://github.com/PhilipMay/may-la-hugo/actions/workflows/make-deploy.yml)
 
 Philip May’s Hugo webpage hostet at [May.la](https://May.la).
